@@ -1,0 +1,391 @@
+notice_date,effective_date,processed_date,company,county,address,layoff_or_closure,employees,industry
+2026-10-21,2026-12-23,2026-10-21,"DesigneRx Pharmaceuticals, Inc.",Solano County,4941 Allison Parkway Suite B Vacaville CA 95688,Layoff Permanent,6,31-33 Manufacturing
+2026-10-21,2026-10-21,2026-10-21,eBay Inc.,Santa Clara County,2025 Hamilton Ave  San Jose CA 95125,Layoff Permanent,229,44-45 Retail Trade
+2026-10-20,2026-12-19,2026-10-20,Dreyer's Grand Ice Cream,Kern County,7301 District Boulevard  Bakersfield CA 93313,Closure Temporary,380,31-33 Manufacturing
+2026-10-20,2026-12-19,2026-10-20,Randstad (Dreyer's Grand Ice Cream),Tulare County,970 E. Continental Ave.  Tulare CA 93274,Closure Temporary,91,31-33 Manufacturing
+2026-10-20,2026-12-20,2026-10-20,"Safeway, Inc.",Contra Costa County,905 South 34th Street  Richmond CA 94804,Closure Permanent,92,44-45 Retail Trade
+2026-10-19,2026-12-19,2026-10-21,Dreyer's Grand Ice Cream,Kern County,7301 District Boulevard  Bakersfield CA 93313,Closure Temporary,715,31-33 Manufacturing
+2026-10-19,2026-12-19,2026-10-21,Dreyer's Grand Ice Cream,Tulare County,970 E Continental  Tulare CA 93274,Closure Temporary,448,31-33 Manufacturing
+2026-10-19,2026-12-18,2026-10-19,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Marin County,1650 Los Gamos Dr.  San Rafael CA 94903,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-19,2026-12-18,2026-10-19,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Riverside County,1840 California Ave.  Corona CA 92881,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-19,2026-12-18,2026-10-19,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Sacramento County,50 Iron Point Cir.  Folsom CA 95630,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-19,2026-12-18,2026-10-19,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (1800 Harrison St.)",Alameda County,1800 Harrison St.  Oakland CA 94612,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-19,2026-12-18,2026-10-19,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (75 N. Fair Oaks Ave.)",Los Angeles County,75 N. Fair Oaks Ave.  Pasadena CA 91103,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-19,2026-12-18,2026-10-19,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (99 S. Oakland Ave.)",Los Angeles County,99 S. Oakland Ave.  Pasadena CA 91101,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-19,2026-12-18,2026-10-19,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (One Kaiser Plaza)",Alameda County,One Kaiser Plaza  Oakland CA 94612,Layoff Permanent,5,62 Healthcare and Social Assistance
+2026-10-16,2026-09-14,2026-10-19,"Netflix, Inc.",Los Angeles County,5808 Sunset Blvd  Los Angeles CA 90028,Layoff Permanent,267,51 Information
+2026-10-16,2026-09-14,2026-10-19,"Netflix, Inc.",Santa Clara County,121 Albright Way  Los Gatos CA 95032,Layoff Permanent,227,51 Information
+2026-10-15,2026-12-14,2026-10-15,Fender Musical Instruments Corporation,Riverside County,311 Cessna Circle  Corona CA 92878,Closure Temporary,533,31-33 Manufacturing
+2026-10-15,2027-01-15,2026-10-15,Formagrid Inc. dba Airtable,San Francisco County,"One Front Street, 28th Floor  San Francisco CA 94111",Layoff Permanent,190,51 Information
+2026-10-14,2026-12-15,2026-10-15,Silverado Senior Living Managment Inc.,Los Angeles County,514 North Prospect Avenue  Redondo Beach CA 90277,Closure Permanent,7,62 Healthcare and Social Assistance
+2026-10-14,2026-12-14,2026-10-14,The Neil Jones Food Company dba Tomatek,Fresno County,2025 N Street  Firebaugh CA 93622,Layoff Temporary,116,31-33 Manufacturing
+2026-10-13,2026-12-14,2026-10-13,"ServiceNow, Inc.",Santa Clara County,2225 Lawson Lane  Santa Clara CA 95054,Layoff Permanent,2,51 Information
+2026-10-13,2026-12-14,2026-10-13,"ServiceNow, Inc.",San Diego County,4801 Eastgate Mall  San Diego CA 92121,Layoff Permanent,18,51 Information
+2026-10-13,2026-12-14,2026-10-19,Tree Service Unlimited Inc.,El Dorado County,4080 Plaza Goldorado Circle Ste A  Cameron Park CA 95682,Layoff Permanent,137,56 Administrative and Support and Waste Management and Remediation
+2026-10-12,2026-12-11,2026-10-13,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Alameda County,5820 Owens Dr.  Pleasanton CA 94588,Layoff Permanent,7,62 Healthcare and Social Assistance
+2026-10-12,2026-12-11,2026-10-13,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Sacramento County,3240 Arden Wy.  Sacramento CA 95825,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-09,2026-12-15,2026-10-15,"Myers Power Products, Inc.",San Bernardino County,2950 East Philadelphia Street  Ontario CA 91761,Closure Permanent,206,31-33 Manufacturing
+2026-10-09,2026-12-09,2026-10-12,Phillips 66 - Carson,Los Angeles County,1520 E. Sepulveda Blvd.  Carson CA 90745,Closure Permanent,3,31-33 Manufacturing
+2026-10-09,2026-12-09,2026-10-12,Phillips 66 - Wilmington,Los Angeles County,1660 W. Anaheim Street  Wilmington CA 90744,Closure Permanent,5,31-33 Manufacturing
+2026-10-09,2026-12-11,2026-10-09,Sapporo U.S.A - Citracado Parkway,San Diego County,1999 Citracado Parkway  Escondido CA 92029,Closure Permanent,2,42 Wholesale Trade
+2026-10-09,2026-12-11,2026-10-09,Sapporo U.S.A. - Executive Place,San Diego County,2865 Executive Place  Escondido CA 92029,Closure Permanent,1,42 Wholesale Trade
+2026-10-08,2026-12-07,2026-10-08,Jacuzzi,San Bernardino County,14525 Monte Vista Ave.  Chino CA 91710,Closure Permanent,42,44-45 Retail Trade
+2026-10-07,2027-01-04,2026-10-08,"Haas Automation, Inc.",Ventura County,2800 Sturgis Road  Oxnard CA 93030,Layoff Permanent,74,31-33 Manufacturing
+2026-10-06,2026-12-07,2026-10-07,"Beachbody, LLC",Los Angeles County,400 North Continental Blvd.  El Segundo CA 90245,Layoff Permanent,80,54 Professional Scientific and Technical Services
+2026-10-06,2026-12-07,2026-10-06,"Caribou Biosciences, Inc.",Alameda County,"2929 7th Street, Ste 105  Berkeley CA 94710",Closure Permanent,87,54 Professional Scientific and Technical Services
+2026-10-05,2026-12-04,2026-10-05,"AMF Bowling Centers, Inc. Castle Park",Riverside County,3500 Polk Street  Riverside CA 92505,Layoff Permanent,130,71 Arts Entertainment and Recreation
+2026-10-05,2027-01-04,2026-10-06,Cayuga Home for Children,Los Angeles County,8616 La Tijera Boulevard  Los Angeles CA 90045,Closure Permanent,12,62 Healthcare and Social Assistance
+2026-10-05,2026-12-04,2026-10-05,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Alameda County,One Kaiser Plaza  Oakland CA 94612,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-05,2026-12-04,2026-10-05,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",Alameda County,4460 Hacienda Dr.  Pleasanton CA 94588,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-10-05,2026-12-04,2026-10-05,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc.",San Diego County,8954 Rio San Diego Dr.  San Diego CA 92108,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-05,2026-12-04,2026-10-05,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (393 E. Walnut St.)",Los Angeles County,393 E. Walnut St.  Pasadena CA 91188,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-05,2026-12-04,2026-10-05,"Kaiser Foundation Hospitals and Kaiser Foundation Health Plan, Inc. (74 N. Pasadena Ave.)",Los Angeles County,74 N. Pasadena Ave.  Pasadena CA 91103,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-10-05,2026-11-19,2026-10-14,Menzies Aviation,Los Angeles County,1 World Way  Los Angeles CA 90045,Layoff Permanent,137,48-49 Transportation and Warehousing
+2026-10-02,2026-12-04,2026-10-02,Blue Diamond Growers,Sacramento County,1802 C Street  Sacramento CA 95811,Closure Permanent,3,31-33 Manufacturing
+2026-10-01,2026-10-30,2026-10-16,Baloian Farms,Fresno County,446 N. Blythe Ave.  Fresno CA 93706,Layoff Temporary,106,11 Agriculture Forestry Fishing Hunting
+2026-10-01,2026-12-01,2026-10-02,"Magic Leap, Inc.",Santa Clara County,1376 Bordeaux Dr.  Sunnyvale CA 94089,Layoff Permanent,5,54 Professional Scientific and Technical Services
+2026-10-01,2026-11-30,2026-10-07,ODS Technologies LP and Betfair Interactive US LLC,Los Angeles County,"6701 Center Drive West, Suite 160  Los Angeles CA 90045",Layoff Permanent,2,71 Arts Entertainment and Recreation
+2026-10-01,2026-11-30,2026-10-02,TruFusion West Hollywood LLC,Los Angeles County,904 North La Brea Avenue  Los Angeles CA 90038,Closure Permanent,92,71 Arts Entertainment and Recreation
+2026-09-30,2026-12-04,2026-09-30,DLVR (A Corp),Los Angeles County,5750 Mesmer Avenue  Culver City CA 90230,Closure Permanent,60,48-49 Transportation and Warehousing
+2026-09-30,2026-09-30,2026-10-02,"Monroe Operations, LLC, dba Newport Healthcare - Alhambra",Ventura County,2565 Alhambra Court  Santa Rosa Valley CA 93012,Layoff Permanent,5,62 Healthcare and Social Assistance
+2026-09-30,2026-09-30,2026-10-02,"Monroe Operations, LLC, dba Newport Healthcare - Pimlico",Ventura County,10813 Pimlico Dr.  Moorpark CA 93021,Layoff Permanent,3,62 Healthcare and Social Assistance
+2026-09-30,2026-09-30,2026-10-02,"Monroe Operations, LLC, dba Newport Healthcare - Presilla",Ventura County,11530 Presilla Rd.  Santa Rosa Valley CA 93012,Layoff Permanent,8,62 Healthcare and Social Assistance
+2026-09-30,2026-09-30,2026-10-02,"Monroe Operations, LLC, dba Newport Healthcare - Read",Ventura County,4914 Read Rd.  Moorpark CA 93021,Layoff Permanent,6,62 Healthcare and Social Assistance
+2026-09-30,2026-09-30,2026-10-02,"Monroe Operations, LLC, dba Newport Healthcare - Valley Vista",Ventura County,683 Valley Vista Dr.  Camarillo CA 93010,Layoff Permanent,18,62 Healthcare and Social Assistance
+2026-09-30,2026-09-11,2026-10-06,Neogen Care Home Health Agency,Los Angeles County,"15260 Ventura Boulevard, Suite 670  Sherman Oaks CA 91403",Closure Permanent,148,62 Healthcare and Social Assistance
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (1060 N Eastern Ave.)",Los Angeles County,1060 N Eastern Ave.  Los Angeles CA 90063,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (1104 N. Eastern Ave.)",Los Angeles County,1104 N. Eastern Ave.  Los Angeles CA 90063,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (11515 S. Colima Rd.)",Los Angeles County,11515 S. Colima Rd.  Whittier CA 90604,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (11700 S. Alameda St.)",Los Angeles County,11700 S. Alameda St.  Lynwood CA 90262,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (11703 S. Alameda St.)",Los Angeles County,11703 S. Alameda St.  Lynwood CA 90262,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (11703 W. Alameda St.)",Los Angeles County,11703 W. Alameda St.  Lynwood CA 90262,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (12335 Civic Center Dr.)",Los Angeles County,12335 Civic Center Dr.  Norwalk CA 90650,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (1310 W Imperial Hwy)",Los Angeles County,1310 W Imperial Hwy  Los Angeles CA 90044,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (13483 Fiji Way)",Los Angeles County,13483 Fiji Way  Marina Del Rey CA 90242,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (1445 McKinley Ave.)",Los Angeles County,1445 McKinley Ave.  Pomona CA 91767,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (150 N Hudson Ave.)",Los Angeles County,150 N Hudson Ave.  Industry CA 91774,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (21356 S. Avalon Blvd.)",Los Angeles County,21356 S. Avalon Blvd.  Carson CA 90745,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (21695 Valley Blvd.)",Los Angeles County,21695 Valley Blvd.  Walnut CA 91789,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (26123 S. Narbonne Ave.)",Los Angeles County,26123 S. Narbonne Ave.  Lomita CA 90717,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (26201 Golden Valley Rd.)",Los Angeles County,26201 Golden Valley Rd.  Santa Clarita CA 91350,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (270 S. Walnut Ave.)",Los Angeles County,270 S. Walnut Ave.  San Dimas CA 91773,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (270 W. Walnut Ave.)",Los Angeles County,270 W. Walnut Ave.  San Dimas CA 91773,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (27050 Agoura Rd.)",Los Angeles County,27050 Agoura Rd.  Agoura CA 91301,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (29380 The Old Road)",Los Angeles County,29380 The Old Road  Castaic CA 91310,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (441 Bauchet St.)",Los Angeles County,441 Bauchet St.  Los Angeles CA 90012,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (4554 N. Briggs Ave.)",Los Angeles County,4554 N. Briggs Ave.  La Crescenta CA 91214,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (501 W. Lancaster Blvd.)",Los Angeles County,501 W. Lancaster Blvd.  Lancaster CA 93534,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (5019 E 3rd St.)",Los Angeles County,5019 E 3rd St.  Los Angeles CA 90022,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (5130 N. Clark Ave.)",Los Angeles County,5130 N. Clark Ave.  Lakewood CA 90712,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (6631 S Passons Ave.)",Los Angeles County,6631 S Passons Ave.  Pico Riva CA 90660,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (750 E Ave Q)",Los Angeles County,750 E Ave Q  Palmdale CA 93550,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (780 N. San Vicenta Blvd.)",Los Angeles County,780 N. San Vicenta Blvd.  W. Hollywood CA 90069,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-10-31,2026-09-29,"Constellis, LLC (8838 E. Las Tunas Dr.)",Los Angeles County,8838 E. Las Tunas Dr.  Temple City CA 90069,Layoff Permanent,5,56 Administrative and Support and Waste Management and Remediation
+2026-09-29,2026-11-30,2026-09-29,Workday Inc.,Alameda County,6110 Stoneridge Mall Road  Pleasanton CA 94588,Layoff Permanent,142,51 Information
+2026-09-28,2026-10-30,2026-09-29,Corteva Agriscience LLC,Contra Costa County,901 Loveridge Road  Pittsburg CA 94565,Layoff Permanent,2,31-33 Manufacturing
+2026-09-28,2026-11-30,2026-09-28,"Covenant Aviation Security, LLC",San Francisco County,Highway 101  San Francisco CA 94128,Layoff Permanent,1279,56 Administrative and Support and Waste Management and Remediation
+2026-09-28,2026-11-30,2026-09-30,McKinley Paper and Packaging Company,Los Angeles County,13012 Midway Place  Cerritos CA 90703,Closure Permanent,45,31-33 Manufacturing
+2026-09-24,2026-09-01,2026-10-01,"Becton, Dickinson and Company (BD)",San Diego County,3750 Torrey View Court  San Diego CA 92130,Layoff Permanent,85,31-33 Manufacturing
+2026-09-24,2026-12-04,2026-09-28,BioMarin Pharmaceutical Inc.,Marin County,105 Digital Drive  Novato CA 94949,Layoff Permanent,117,31-33 Manufacturing
+2026-09-24,2026-11-23,2026-09-25,City National Bank - Flower Street,Los Angeles County,555 S. Flower St.  Los Angeles CA 90071,Layoff Not known at this time,4,52 Finance and Insurance
+2026-09-24,2026-11-23,2026-09-25,City National Bank - Grand Ave.,Los Angeles County,350 S. Grand Ave.  Los Angeles CA 90071,Layoff Not known at this time,15,52 Finance and Insurance
+2026-09-24,2026-11-19,2026-09-24,"Randstad Inhouse Services, LLC (Dreyer's)",Kern County,7301 District Boulevard  Bakersfield CA 93313,Closure Temporary,426,31-33 Manufacturing
+2026-09-24,2026-11-22,2026-09-24,"Randstad Inhouse Services, LLC (Dreyer's)",Tulare County,970 E. Continental Ave.  Tulare CA 93274,Closure Temporary,90,31-33 Manufacturing
+2026-09-23,2026-11-21,2026-09-23,Capstone Delivery Inc.,Los Angeles County,9350 Rayo Avenue  South Gate CA 90280,Closure Permanent,106,48-49 Transportation and Warehousing
+2026-09-23,2026-11-24,2026-09-24,City of Hope,Los Angeles County,4900 Rivergrade Road  Irwindale CA 91706,Layoff Permanent,73,62 Healthcare and Social Assistance
+2026-09-23,2026-11-22,2026-09-24,"Key Energy Services, LLC - Bakersfield Location",Kern County,18835 Highway 65  Bakersfield CA 93308,Closure Temporary,53,21 Mining Quarrying Oil and Gas Exraction
+2026-09-23,2026-11-22,2026-09-24,"Key Energy Services, LLC - Ventura Location",Ventura County,2951 N. Ventura Avenue  Ventura CA 93002,Closure Temporary,4,21 Mining Quarrying Oil and Gas Exraction
+2026-09-22,2026-11-19,2026-09-25,Dreyer's Grand Ice Cream,Kern County,7301 District Boulevard  Bakersfield CA 93313,Closure Temporary,221,31-33 Manufacturing
+2026-09-22,2026-11-19,2026-09-29,Dreyer's Grand Ice Cream,Tulare County,970 E Continental Ave  Tulare CA 93274,Closure Temporary,221,31-33 Manufacturing
+2026-09-22,2026-11-27,2026-09-22,RTX,Los Angeles County,2000 E El Segundo Blvd  El Segundo CA 90245,Layoff Permanent,1,54 Professional Scientific and Technical Services
+2026-09-22,2026-09-28,2026-09-24,SAC Health (1003 East Brier Drive),San Bernardino County,1003 East Brier Drive  San Bernardino CA 92408,Layoff Permanent,42,62 Healthcare and Social Assistance
+2026-09-22,2026-09-28,2026-09-24,SAC Health (250 South G St.),San Bernardino County,250 South G St.  San Bernardino CA 92410,Layoff Permanent,9,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser,Alameda County,4460 Hacienda Dr.  Pleasanton CA 94588,Layoff Permanent,22,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser,Los Angeles County,3000 S. Robertson Blvd.  Los Angeles CA 90034,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser,Orange County,17836 Gillette Ave.  Irvine CA 92614,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser,Sacramento County,50 Iron Point Cir.  Folsom CA 95630,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser,Sacramento County,3240 Arden Wy.  Sacramento CA 95825,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (17140 Bernardo Center Dr.),San Diego County,17140 Bernardo Center Dr.  San Diego CA 92128,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (1800 Harrison St.),Alameda County,1800 Harrison St.  Oakland CA 94612,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (1830 California Ave.),Riverside County,1830 California Ave.  Corona CA 92881,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (1840 California Ave.),Riverside County,1840 California Ave.  Corona CA 92881,Layoff Permanent,4,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (3840 Murphy Canyon Rd.),San Diego County,3840 Murphy Canyon Rd.  San Diego CA 92123,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (393 E. Walnut St.),Los Angeles County,393 E. Walnut St.  Pasadena CA 91188,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (74 N. Pasadena Ave.),Los Angeles County,74 N. Pasadena Ave.  Pasadena CA 91103,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (75N. Fair Oaks Ave.),Los Angeles County,75 N. Fair Oaks Ave.  Pasadena CA 91103,Layoff Permanent,3,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (8954 Rio San Diego Dr.),San Diego County,8954 Rio San Diego Dr.  San Diego CA 92108,Layoff Permanent,72,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (99 S. Oakland Ave.),Los Angeles County,99 S. Oakland Ave.  Pasadena CA 91101,Layoff Permanent,20,62 Healthcare and Social Assistance
+2026-09-21,2026-11-20,2026-09-22,Kaiser (One Kaiser Plaza),Alameda County,One Kaiser Plaza  Oakland CA 94612,Layoff Permanent,11,62 Healthcare and Social Assistance
+2026-09-18,2026-11-17,2026-09-18,"IPS Nationwide, Inc.",Alameda County,"39899 Balentine Dr., Unit 200, Suite #228  Newark CA 94560",Layoff Permanent,212,56 Administrative and Support and Waste Management and Remediation
+2026-09-18,2026-11-17,2026-09-18,"IPS Nationwide, Inc.",Orange County,"3186 Airway Ave., Suite F  Costa Mesa CA 92626",Layoff Permanent,50,56 Administrative and Support and Waste Management and Remediation
+2026-09-18,2026-09-30,2026-09-18,Intel Corporation - Robert Noyce Building,Santa Clara County,2200 Mission College Boulevard  Santa Clara CA 95054,Layoff Permanent,22,31-33 Manufacturing
+2026-09-18,2026-09-30,2026-09-18,Intel Corporation - SC-11,Santa Clara County,2191 Laurelwood Rd.  Santa Clara CA 95054,Layoff Permanent,1,31-33 Manufacturing
+2026-09-18,2026-09-30,2026-09-18,Intel Corporation - SC-12,Santa Clara County,3600 Juliette Lane  Santa Clara CA 95054,Layoff Permanent,24,31-33 Manufacturing
+2026-09-18,2026-09-30,2026-09-18,"Intel Corporation, Inc. - SC-9",Santa Clara County,3601 Juliette Lane  Santa Clara CA 95054,Layoff Permanent,5,31-33 Manufacturing
+2026-09-17,2026-12-18,2026-09-17,"Amy's Kitchen, LLC",Sonoma County,2330 Northpoint Parkway  Santa Rosa CA 95407,Closure Permanent,200,31-33 Manufacturing
+2026-09-17,2026-11-20,2026-09-18,"Safeway, Inc. - Dublin Canyon Road",Alameda County,11555 Dublin Canyon Road  Pleasanton CA 94588,Layoff Permanent,46,44-45 Retail Trade
+2026-09-17,2026-11-20,2026-09-18,"Safeway, Inc. - Stoneridge Mall Road",Alameda County,5918 Stoneridge Mall Road  Pleasanton CA 94588,Layoff Permanent,4,44-45 Retail Trade
+2026-09-16,2026-09-15,2026-09-17,Maya Cinemas Fresno 16,Fresno County,3090 E. Campus Pointe Dr.  Fresno CA 93710,Closure Permanent,86,51 Information
+2026-09-15,2026-11-04,2026-09-15,Full Steam Staffing (2121 Boeing Way),San Joaquin County,2121 Boeing Way  Stockton CA 95206,Closure Permanent,91,56 Administrative and Support and Waste Management and Remediation
+2026-09-15,2026-11-04,2026-09-15,Full Steam Staffing (4239 Pock Lane),San Joaquin County,4239 Pock Lane  Stockton CA 95206,Closure Permanent,19,56 Administrative and Support and Waste Management and Remediation
+2026-09-15,2026-11-14,2026-09-23,Quixote Studio Services - North Valley,Los Angeles County,10252 Norris Ave.  Pacoima CA 91331,Layoff Permanent,29,71 Arts Entertainment and Recreation
+2026-09-15,2026-11-14,2026-09-23,Quixote Studio Services - North Valley Campus A,Los Angeles County,12137 Montague St.  Pacoima CA 91331,Layoff Permanent,24,71 Arts Entertainment and Recreation
+2026-09-15,2026-11-14,2026-09-23,Quixote Studio Services - Sylmar North,Los Angeles County,14002 Balboa  Sylmar CA 91342,Layoff Permanent,1,71 Arts Entertainment and Recreation
+2026-09-15,2026-11-14,2026-09-23,Quixote Studio Services - Sylmar South,Los Angeles County,13334 Ralston Avenue  Sylmar CA 91342,Layoff Permanent,3,71 Arts Entertainment and Recreation
+2026-09-14,2026-11-15,2026-09-15,"DesigneRx Pharmaceuticals, Inc.",Solano County,"4941 Allison Parkway, Suite B  Vacaville CA 95688",Closure Permanent,7,31-33 Manufacturing
+2026-09-14,2026-11-13,2026-09-15,"Oracle America, Inc.",San Mateo County,500 Oracle Parkway  Redwood City CA 94065,Layoff Permanent,279,31-33 Manufacturing
+2026-09-14,2026-11-13,2026-09-15,"Oracle America, Inc.",Santa Clara County,4230 Leonard Stocking Drive  Santa Clara CA 95054,Layoff Permanent,99,31-33 Manufacturing
+2026-09-14,2026-11-13,2026-09-15,Oracle Pleasanton Campus (Pleasanton Campus),Alameda County,5815 Owens Drive  Pleasanton CA 94588,Layoff Permanent,63,31-33 Manufacturing
+2026-09-11,2026-12-21,2026-09-14,LeeMah Electronics,San Mateo County,15 South Hill Drive  Brisbane CA 94005,Closure Permanent,62,31-33 Manufacturing
+2026-09-10,2026-11-13,2026-09-11,"Fuji Food Products, Inc.",Los Angeles County,14420 Bloomfield Ave.  Santa Fe Springs CA 90670,Layoff Permanent,35,31-33 Manufacturing
+2026-09-09,2026-11-13,2026-09-09,Sapporo U.S.A. (1999 Citracado Parkway),San Diego County,1999 Citracado Parkway  Escondido CA 92029,Closure Permanent,200,31-33 Manufacturing
+2026-09-09,2026-11-13,2026-09-09,Sapporo U.S.A. (2005 Harmony Grove Rd),San Diego County,2005 Harmony Grove Rd  Escondido CA 92029,Closure Permanent,6,31-33 Manufacturing
+2026-09-09,2026-11-13,2026-09-09,Sapporo U.S.A. (2865 Executive Place),San Diego County,2865 Executive Place  Escondido CA 92029,Closure Permanent,6,31-33 Manufacturing
+2026-09-09,2026-11-30,2026-09-09,Shell Catalyst & Technologies,Contra Costa County,10 Mococo Road  Martinez CA 94553,Closure Permanent,64,31-33 Manufacturing
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (1042 Downey Way),Los Angeles County,1042 Downey Way  Los Angeles CA 90089,Layoff Permanent,7,61 Educational Services
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (1149 S. Hill Street),Los Angeles County,1149 S. Hill Street  Los Angeles CA 90089,Layoff Permanent,1,61 Educational Services
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (1150 S. Olive Street),Los Angeles County,1150 S. Olive Street  Los Angeles CA 90015,Layoff Permanent,5,61 Educational Services
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (12015 E Waterfront Dr.),Los Angeles County,12015 E Waterfront Dr.  Playa Vista CA 90094,Layoff Permanent,8,61 Educational Services
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (3649 McClintock Ave.),Los Angeles County,3649 McClintock Ave.  Los Angeles CA 90089,Layoff Permanent,21,61 Educational Services
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (3740 McClintock Ave),Los Angeles County,3740 McClintock Ave  Los Angeles CA 90089,Layoff Permanent,2,61 Educational Services
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (4676 Admiralty Way),Los Angeles County,4676 Admiralty Way  Marina Del Rey CA 90292,Layoff Permanent,15,61 Educational Services
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (746 W Adams Blvd.),Los Angeles County,746 W Adams Blvd.  Los Angeles CA 90007,Layoff Permanent,1,61 Educational Services
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (854 Downey Way),Los Angeles County,854 Downey Way  Los Angeles CA 90089,Layoff Permanent,1,61 Educational Services
+2026-09-09,2026-11-04,2026-09-09,University of Southern California (941 Bloom Walk),Los Angeles County,941 Bloom Walk  Los Angeles CA 90089,Layoff Permanent,4,61 Educational Services
+2026-09-04,2026-11-04,2026-09-04,Eggo Company dba Kellanova,Santa Clara County,475 Eggo Way  San Jose CA 95116,Closure Temporary,112,31-33 Manufacturing
+2026-09-04,2026-11-04,2026-09-04,"Ruiz Food Products, Inc.",Tulare County,501 South Alta Avenue  Dinuba CA 93618,Layoff Permanent,176,31-33 Manufacturing
+2026-09-04,2026-11-06,2026-09-04,"SonTek (Xylem, Inc.)",San Diego County,9940 Summers Ridge Rd.  San Diego CA 92121,Closure Permanent,36,31-33 Manufacturing
+2026-09-03,2026-11-15,2026-09-03,OVG Hospitality,Ventura County,10 W. Harbor Boulevard  Ventura CA 93001,Layoff Permanent,128,72 Accommodation and Food Services
+2026-09-02,2026-10-30,2026-09-02,Foundation for California Community Colleges,Sacramento County,"1102 Q Street, Suite 4800  Sacramento CA 95811",Layoff Permanent,178,61 Educational Services
+2026-09-02,2026-11-03,2026-09-04,Homeless Health Care Los Angeles - 2nd Street,Los Angeles County,1282 W 2nd Street  Los Angeles CA 90026,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-09-02,2026-11-03,2026-09-04,Homeless Health Care Los Angeles - Crocker Street,Los Angeles County,442 Crocker Street  Los Angeles CA 90013,Layoff Permanent,117,62 Healthcare and Social Assistance
+2026-09-02,2026-11-03,2026-09-04,Homeless Health Care Los Angeles - Maple Ave.,Los Angeles County,655 Maple Ave.  Los Angeles CA 90014,Layoff Permanent,16,62 Healthcare and Social Assistance
+2026-09-02,2026-11-02,2026-09-15,"Uber Technologies, Inc. - 1655 3rd Street",San Francisco County,1655 3rd Street  San Francisco CA 94158,Layoff Permanent,151,56 Administrative and Support and Waste Management and Remediation
+2026-09-02,2026-11-02,2026-09-14,"Uber Technologies, Inc. - 200 Mathilda Place",Santa Clara County,200 Mathilda Place  Sunnyvale CA 94086,Layoff Permanent,94,56 Administrative and Support and Waste Management and Remediation
+2026-09-02,2026-11-02,2026-09-15,"Uber Technologies, Inc. 1725 3rd Street",San Francisco County,1725 3rd Street  San Francisco CA 94158,Layoff Permanent,102,56 Administrative and Support and Waste Management and Remediation
+2026-09-02,2026-11-02,2026-09-14,"Uber technologies, Inc. - 190 Mathilda Place",Santa Clara County,190 Mathilda Place  Sunnyvale CA 94086,Layoff Permanent,43,56 Administrative and Support and Waste Management and Remediation
+2026-09-02,2026-09-18,2026-09-03,Ventana Grill,San Luis Obispo County,2575 Price Street  Pismo Beach CA 93449,Closure Temporary,82,72 Accommodation and Food Services
+2026-09-01,2026-10-30,2026-09-04,"Grain Craft, LLC",San Bernardino County,8790 Rochester Ave # B  Rancho Cucamonga CA 91730,Closure Permanent,3,31-33 Manufacturing
+2026-09-01,2026-11-01,2026-09-16,Pathways Community Services dba Clarvida,Orange County,1360 S. Anaheim Blvd. Suite 101  Anaheim CA 92805,Closure Permanent,35,62 Healthcare and Social Assistance
+2026-09-01,2026-11-01,2026-09-16,Pathways Community Services dba Clarvida,Orange County,1401 N Tustin Ave #225  Santa Ana CA 92706,Closure Permanent,32,62 Healthcare and Social Assistance
+2026-09-01,2026-11-02,2026-09-01,Renewal by Andersen LLC,Los Angeles County,18700 Crenshaw Blvd  Torrance CA 90504,Layoff Permanent,153,31-33 Manufacturing
+2026-09-01,2026-11-02,2026-09-01,Renewal by Andersen LLC,Orange County,654 N Harington Dr.  Orange CA 92868,Layoff Permanent,79,31-33 Manufacturing
+2026-09-01,2026-11-02,2026-09-01,Renewal by Andersen LLC,Orange County,"22982 Alcalde Drive, Suite 100  Laguna Hills CA 92653",Layoff Permanent,52,31-33 Manufacturing
+2026-08-31,2026-09-15,2026-08-31,"24Hr Homecare, LLC",Los Angeles County,"200 N. Pacific Coast Highway, Suite 300  El Segundo CA 90245",Layoff Permanent,738,62 Healthcare and Social Assistance
+2026-08-31,2026-10-29,2026-09-01,"Arsenal Biosciences, Inc.",San Mateo County,329 Oyster Point Blvd  South San Francisco CA 94080,Layoff Permanent,58,54 Professional Scientific and Technical Services
+2026-08-31,2026-10-30,2026-09-01,PayPal,Santa Clara County,2211 N. First Street  San Jose CA 95131,Layoff Permanent,251,52 Finance and Insurance
+2026-08-31,2026-12-16,2026-08-31,"Synopsys, Inc.",Santa Clara County,675 Almanor Ave  Sunnyvale CA 94085,Layoff Permanent,128,51 Information
+2026-08-28,2026-10-20,2026-08-31,Amazon - SF019,San Francisco County,350 Bush Street  San Francisco CA 94104,Layoff Permanent,78,54 Professional Scientific and Technical Services
+2026-08-28,2026-10-20,2026-08-31,Amazon - SJC13,Santa Clara County,1160 Enterprise Way  Sunnyvale CA 94089,Layoff Permanent,70,54 Professional Scientific and Technical Services
+2026-08-28,2026-09-30,2026-08-31,Astrion,Kern County,305 E Popson Ave  Edwards CA 93524,Layoff Permanent,28,54 Professional Scientific and Technical Services
+2026-08-28,2026-10-30,2026-08-28,Blue Diamond Growers,Sacramento County,1802 C Street  Sacramento CA 95811,Layoff Permanent,53,31-33 Manufacturing
+2026-08-28,2026-10-30,2026-09-01,Clarmil Manufacturing Corporation,Alameda County,30865 San Clemente Street  Hayward CA 94544,Closure Permanent,108,31-33 Manufacturing
+2026-08-28,2026-11-06,2026-08-28,"Power Safety Service, LLC",San Joaquin County,5440 E. Harney Lane  Lodi CA 95240,Closure Permanent,189,54 Professional Scientific and Technical Services
+2026-08-28,2026-11-02,2026-08-28,Stanford Health Care - 1830 Embarcadero Rd.,Santa Clara County,1830 Embarcadero Rd  Palo Alto CA 94304,Layoff Permanent,79,62 Healthcare and Social Assistance
+2026-08-28,2026-11-02,2026-08-28,Stanford Health Care - 1840 Embarcadero Rd.,Santa Clara County,1840 Embarcadero Rd.  Palo Alto CA 94304,Layoff Permanent,16,62 Healthcare and Social Assistance
+2026-08-28,2026-10-29,2026-08-28,"Telecare Corporation - Brighter Tomorrow, Program 162",Ventura County,1750 B South Lewis Road  Camarillo CA 93012,Layoff Permanent,23,62 Healthcare and Social Assistance
+2026-08-28,2026-10-29,2026-08-28,Telecare Corporation - House of Transitions,Ventura County,1750 C South Lewis Road  Camarillo CA 93012,Layoff Permanent,16,62 Healthcare and Social Assistance
+2026-08-28,2026-10-29,2026-08-28,Telecare Corporation - Recovery Starship,Ventura County,1760 South Lewis Road  Camarillo CA 93012,Layoff Permanent,16,62 Healthcare and Social Assistance
+2026-08-28,2026-10-29,2026-08-28,Telecare Corporation - Stonehedge,Ventura County,1758 South Lewis Road  Camarillo CA 93012,Layoff Permanent,13,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Behavioral Health - 2740 Grant Street,Contra Costa County,2740 Grant Street  Concord CA 94520,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - 1450 Treat Blvd.,Contra Costa County,1450 Treat Boulevard  Walnut Creek CA 94597,Layoff Permanent,4,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - 1601 Ygnacio Valley Road,Contra Costa County,1601 Ygnacio Valley Road  Walnut Creek CA 94597,Layoff Permanent,15,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - 177 La Casa Via,Contra Costa County,177 La Casa Via  Walnut Creek CA 94598,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - 2540 East Street,Contra Costa County,2540 East Street  Concord CA 94520,Layoff Permanent,15,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - 2540 East Street,Contra Costa County,2540 East Street  Concord CA 94520,Layoff Permanent,3,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - 2700 Grant Street,Contra Costa County,2700 Grant Street  Concord CA 94520,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - 2740 Grant Street,Contra Costa County,2740 Grant Street  Concord CA 94520,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - 3480 Buskirk Ave.,Contra Costa County,3480 Buskirk Avenue  Pleasant Hill CA 94523,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - 5003 Commercial Circle,Contra Costa County,5003 Commercial Circle  Concord CA 94520,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Health - Treat Blvd.,Contra Costa County,1400 Treat Boulevard  Walnut Creek CA 94597,Layoff Permanent,23,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Physician Network - 1450 Treat Blvd.,Contra Costa County,1450 Treat Boulevard  Walnut Creek CA 94597,Layoff Permanent,6,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Physician Network - 1601 Ygnacio Valley Road,Contra Costa County,1601 Ygnacio Valley Road  Walnut Creek CA 94597,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Physician Network - 2700 Grant Street,Contra Costa County,2700 Grant Street  Concord CA 94520,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-08-27,2026-10-28,2026-08-27,John Muir Physician Network - 5860 Owens Drive,Alameda County,5860 Owens Drive  Pleasanton CA 94588,Layoff Permanent,1,62 Healthcare and Social Assistance
+2026-08-27,2026-11-03,2026-08-28,Raley's Store No. 336,Contra Costa County,2400 Sand Creek Rd.  Brentwood CA 94513,Closure Permanent,51,44-45 Retail Trade
+2026-08-27,2026-07-07,2026-09-09,"Trailer Park, Inc.",Los Angeles County,"6922 Hollywood Blvd, 10th Floor  Los Angeles CA 90028",Layoff Permanent,119,54 Professional Scientific and Technical Services
+2026-08-25,2026-10-23,2026-08-27,RTX,Los Angeles County,2012 E El Segundo Blvd BLDG E07  El Segundo CA 90245,Layoff Permanent,7,31-33 Manufacturing
+2026-08-24,2026-10-25,2026-08-24,"BFG Supply Co., LLC",San Bernardino County,2552 Shenandoah Way  San Bernardino CA 92407,Layoff Permanent,37,42 Wholesale Trade
+2026-08-24,2026-10-25,2026-08-24,"BFG Supply Co., LLC",Yolo County,"3740 Seaport Boulevard, Suite 10  West Sacramento CA 95691",Layoff Permanent,2,42 Wholesale Trade
+2026-08-21,2026-10-20,2026-08-21,Blue Shield of California,Alameda County,601 12th Street  Oakland CA 94607,Layoff Permanent,25,52 Finance and Insurance
+2026-08-21,2026-10-20,2026-08-21,Blue Shield of California,Los Angeles County,3840 Kilroy Airport Way  Long Beach CA 90806,Layoff Permanent,8,52 Finance and Insurance
+2026-08-21,2026-10-20,2026-08-21,Blue Shield of California,Los Angeles County,6300 Canoga Avenue  Woodland Hills CA 91367,Layoff Permanent,3,52 Finance and Insurance
+2026-08-21,2026-10-20,2026-08-21,Blue Shield of California,Sacramento County,3300 Zinfandel Drive  Rancho Cordova CA 95670,Layoff Permanent,5,52 Finance and Insurance
+2026-08-21,2026-10-20,2026-08-21,Blue Shield of California,San Diego County,"3131 Camino Del Rio, Suite #1300  San Diego CA 92108",Layoff Permanent,4,52 Finance and Insurance
+2026-08-21,2026-10-20,2026-08-21,Blue Shield of California,San Joaquin County,3021 Reynolds Ranch Parkway  Lodi CA 95240,Layoff Permanent,2,52 Finance and Insurance
+2026-08-21,2026-10-20,2026-08-21,Blue Shield of California (Building B),El Dorado County,"4203 Town Center Blvd., Building B  El Dorado Hills CA 95672",Layoff Permanent,12,52 Finance and Insurance
+2026-08-21,2026-10-20,2026-08-21,Blue Shield of California (Building C),El Dorado County,"4203 Town Center Blvd., Building C  El Dorado Hills CA 95762",Layoff Permanent,1,52 Finance and Insurance
+2026-08-21,2026-10-20,2026-08-21,Cellares Corporation,San Mateo County,1100 Veterans Boulevard  South San Francisco CA 94080,Layoff Permanent,100,54 Professional Scientific and Technical Services
+2026-08-20,2026-10-19,2026-08-21,"Apple, Inc. - Cupertino",Santa Clara County,One Apple Park Way  Cupertino CA 95014,Layoff Permanent,79,31-33 Manufacturing
+2026-08-20,2026-10-19,2026-08-21,"Apple, Inc. - Maude Ave.",Santa Clara County,605 W. Maude Ave.  Sunnyvale CA 94085,Layoff Permanent,40,31-33 Manufacturing
+2026-08-20,2026-10-19,2026-08-21,"Apple, Inc. - Sunnyvale",Santa Clara County,599 N. Mathilda Ave.  Sunnyvale CA 94085,Layoff Permanent,28,31-33 Manufacturing
+2026-08-20,2026-11-23,2026-08-21,Jabil Inc.,Santa Clara County,30 Great Oaks Boulevard  San Jose CA 95119,Closure Temporary,382,31-33 Manufacturing
+2026-08-19,2026-11-02,2026-08-20,"Haas Automation, Inc.",Ventura County,2800 Sturgis Road  Oxnard CA 93030,Relocation Permanent,73,31-33 Manufacturing
+2026-08-19,2026-10-19,2026-08-19,"Stone Brewing CO., LLC - Citracado Parkway",San Diego County,1999 Citracado Parkway  Escondido CA 92029,Closure Permanent,50,31-33 Manufacturing
+2026-08-19,2026-10-19,2026-08-19,"Stone Brewing Co., LLC - Executive Place",San Diego County,2865 Executive Place  Escondido CA 92029,Closure Permanent,6,31-33 Manufacturing
+2026-08-19,2026-10-19,2026-08-19,"Stone Brewing Co., LLC - Harmony Grove",San Diego County,2005 Harmony Grove Rd.  Escondido CA 92029,Closure Permanent,2,31-33 Manufacturing
+2026-08-18,2026-10-30,2026-08-18,Corteva Agriscience LLC,Contra Costa County,901 Loveridge Road  Pittsburg CA 94565,Layoff Permanent,2,31-33 Manufacturing
+2026-08-18,2026-10-20,2026-09-17,Leveine Management Groups - 415 S. Oleander Ave.,Los Angeles County,"415 S. Oleander Ave,  Compton CA 90220",Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-08-17,2026-08-26,"Levine Management Group, Inc.",Los Angeles County,822 S. Robertson Suite #200  Los Angeles CA 90035,Layoff Permanent,72,56 Administrative and Support and Waste Management and Remediation
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Group, Inc. - 822 SRobertson",Los Angeles County,822 S Robertson Blvd. Ste 200  Los Angeles CA 90035,Layoff Not known at this time,17,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Group, Inc. - Gale Ave.",Los Angeles County,15554 Gale Ave.  Hacienda Heights CA 91745,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Group, Inc. - James M. Wood Blvd",Los Angeles County,2300 James M. Wood Blvd.  Los Angeles CA 90006,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Group, Inc. - Rural Dr.",Los Angeles County,234 N. Rural Dr.  Monterey Park CA 91755,Layoff Not known at this time,4,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - 1053 S. New Hampshire Ave.-",Los Angeles County,1053 S. New Hampshire Ave.  Los Angeles CA 90006,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - 1057 S, New Hampshire Ave",Los Angeles County,1057 New Hampshire Ave.  Los Angeles CA 90006,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - 425 S. Oleander Ave.",Los Angeles County,425 S. Oleander Ave.  Compton CA 90220,Layoff Not known at this time,3,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - 900-906 Crenshaw Blvd",Los Angeles County,900-906 Crenshaw Blvd.  Los Angeles CA 90019,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - 980 Palm Ave.",Los Angeles County,980 Palm Ave.  West Hollywood CA 90069,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Arrow Highway",Los Angeles County,837 E. Arrow Highway  Pomona CA 91767,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Beachwood Dr.",Los Angeles County,2100 N. Beachwood Dr.  Los Angeles CA 90068,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Canada Blvd.",Los Angeles County,2615 Canada Blvd.  Glendale CA 91208,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Candlewood",Los Angeles County,4051 Candlewood St.  Lakewood CA 90712,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Carmelita Ct.",Ventura County,201 Carmelita Ct.  Oxnard CA 93030,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Cypress Road",Ventura County,5493 Cypress Road  Oxnard CA 93033,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Glendale Blvd",Los Angeles County,153 Glendale Blvd.  Los Angeles CA 90026,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Manhattan Pl",Los Angeles County,1257 S. Manhattan Pl.  Los Angeles CA 90019,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Mesa St.",Los Angeles County,805 S. Mesa St.  San Pedro CA 90731,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Ponderosa Dr.",Ventura County,2105 E. Ponderosa Dr.  Camarillo CA 93010,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Potrero Grande",Los Angeles County,1301 Potrero Grande Dr.  Rosemead CA 91770,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Ratner St.",Los Angeles County,10986 W. Ratner St.  Sun Valley CA 91352,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - San Dimas",Los Angeles County,2400 San Dimas Canyon Rd.  La Verne CA 91750,Layoff Not known at this time,3,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Sunset Pl.",Los Angeles County,2848 Sunset Pl.  Los Angeles CA 90005,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Towne Avenue",Los Angeles County,425 Towne Avenue  Los Angeles CA 90013,Layoff Not known at this time,4,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. - Valley Blvd.",Los Angeles County,2775 E. Valley Blvd.  West Covina CA 91792,Layoff Not known at this time,4,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine Management Groups, Inc. 95th Street",Los Angeles County,1351 W. 95th Street  Los Angeles CA 90044,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,Levine Management Groups. Inc. - Kingsley Dr.,Los Angeles County,540-542 Kingsley Dr.  Los Angeles CA 90020,Layoff Not known at this time,1,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-20,2026-09-17,"Levine management Groups, Inc. - Normandie Ave",Los Angeles County,6525 Normandie Ave.  Los Angeles CA 90044,Layoff Not known at this time,2,53 Real Estate and Rental Leasing
+2026-08-18,2026-10-18,2026-08-18,Stockton Truss LLC,San Joaquin County,4408 E Fremont St  Stockton CA 95215,Layoff Permanent,65,31-33 Manufacturing
+2026-08-17,2026-10-16,2026-08-17,LeeMAH Electronics,San Mateo County,155 South Hill Drive  Brisbane CA 94005,Closure Permanent,205,31-33 Manufacturing
+2026-08-17,2026-10-02,2026-08-17,Roskam Baking Company dba Organic Milling,Los Angeles County,305 South Acacia Street  San Dimas CA 91773,Layoff Permanent,115,31-33 Manufacturing
+2026-08-17,2026-10-16,2026-08-18,"Volume Services, Inc. (Sodexo)",Ventura County,40 Presidential Drive  Simi Valley CA 93065,Layoff Permanent,93,72 Accommodation and Food Services
+2026-08-14,2026-10-13,2026-08-20,"Flying Food Group, LLC",San Mateo County,50 Adrian Ct  Burlingame CA 94010,Closure Permanent,72,72 Accommodation and Food Services
+2026-08-13,2026-07-14,2026-08-14,"Netflix, Inc.",Los Angeles County,5808 W. Sunset Blvd  Los Angeles CA 90028,Layoff Permanent,59,51 Information
+2026-08-13,2026-10-13,2026-08-13,Universal City Studios Productions LLLP,Los Angeles County,"100 Universal City Plaza, Bldg. 1440  Universal City CA 91608",Layoff Permanent,14,51 Information
+2026-08-12,2026-10-12,2026-08-20,Silgan Containers,Stanislaus County,3250 Patterson Road  Riverbank CA 95367,Layoff Temporary,120,31-33 Manufacturing
+2026-08-11,2026-09-01,2026-08-11,Adventist Health Glendale,Los Angeles County,600 S Central Ave.  Glendale CA 91205,Layoff Permanent,7,62 Healthcare and Social Assistance
+2026-08-11,2026-11-19,2026-08-11,"Bumble Bee Foods, LLC",Los Angeles County,13100 Arctic Circle  Santa Fe Springs CA 90670,Layoff Permanent,197,31-33 Manufacturing
+2026-08-11,2026-10-10,2026-08-12,EBALDC (100 9th Street),Alameda County,100 9th Street  Oakland CA 94607,Layoff Permanent,4,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (120 Macdonald Ave),Contra Costa County,120 Macdonald Ave 907 Lake Street Richmond CA 94801,Layoff Permanent,1,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (121 E 12th Street),Alameda County,121 E 12th Street  Oakland CA 94606,Layoff Permanent,2,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (1448 10th Street),Alameda County,1448 10th Street 829 East 19th Street Oakland CA 94607,Layoff Permanent,2,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,"EBALDC (1825 San Pablo Ave., Suite 200)",Alameda County,"1825 San Pablo Ave., Suite 200  Oakland CA 94612",Layoff Permanent,20,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (188 11th Street),Alameda County,188 11th Street  Oakland CA 94607,Layoff Permanent,4,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (1935 Seminary Ave),Alameda County,1935 Seminary Ave 2530 International BLVD Oakland CA 94621,Layoff Permanent,2,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (1955 San Pablo Ave),Alameda County,1955 San Pablo Ave  Oakland CA 94612,Layoff Permanent,9,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (2201 Brush St.),Alameda County,2201 Brush St.  Oakland CA 94612,Layoff Permanent,5,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (2555 International BLVD),Alameda County,2555 International BLVD  Oakland CA 94601,Layoff Permanent,5,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (283 13th Street),Alameda County,283 13th Street  Oakland CA 94612,Layoff Permanent,4,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (2946 International BLVD),Alameda County,2946 International BLVD 2618 East 16th Street Oakland CA 94601,Layoff Permanent,2,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (3501 San Pablo Ave),Alameda County,3501 San Pablo Ave  Oakland CA 94608,Layoff Permanent,9,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (3850 San Pablo Ave),Alameda County,3850 San Pablo Ave  Emeryville CA 94608,Layoff Permanent,1,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (700 Willow Street),Alameda County,700 Willow Street 721 Wood Street Oakland CA 94607,Layoff Permanent,2,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (801 Pine Street),Alameda County,801 Pine Street  Oakland CA 94607,Layoff Permanent,4,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (907 Lake Street),Contra Costa County,907 Lake Street  San Pablo CA 94806,Layoff Permanent,2,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (918 Clay Street),Alameda County,918 Clay Street  Oakland CA 94607,Layoff Permanent,2,92 Public Administration
+2026-08-11,2026-10-10,2026-08-12,EBALDC (989 Brush Street),Alameda County,989 Brush Street  Oakland CA 94610,Layoff Permanent,2,92 Public Administration
+2026-08-11,2026-10-10,2026-08-11,Sharp Metropolitan Medical Campus  - Sharp Memorial Hospital,San Diego County,7901 Frost Street  San Diego CA 92123,Layoff Permanent,20,62 Healthcare and Social Assistance
+2026-08-11,2026-10-10,2026-08-11,Sharp Metropolitan Medical Campus - Sharp Mary Birch Hospital,San Diego County,7901 Frost Street  San Diego CA 92123,Layoff Permanent,7,62 Healthcare and Social Assistance
+2026-08-11,2026-10-10,2026-08-11,Sharp Metropolitan Medical Campus - Sharp Mesa Vista,San Diego County,7901 Frost Street  San Diego CA 92123,Layoff Permanent,134,62 Healthcare and Social Assistance
+2026-08-11,2026-10-10,2026-08-11,Sharp Metropolitan Medical Campus - Sharp Outpatient Pavilion,San Diego County,7901 Frost Street  San Diego CA 92123,Layoff Permanent,5,62 Healthcare and Social Assistance
+2026-08-11,2026-10-10,2026-08-11,Sharp Metropolitan Medical Group - Sharp McDonald Center,San Diego County,7901 Frost Street  San Diego CA 92123,Layoff Permanent,2,62 Healthcare and Social Assistance
+2026-08-11,2027-02-01,2026-08-11,ZOLL Medical Corporation,Riverside County,1100 Bird Center Drive  Palm Springs CA 92262,Closure Permanent,78,81 Other Services Except Public Administration
+2026-08-07,2026-10-06,2026-08-10,G3 Enterprises,Stanislaus County,500 S. Santa Rosa  Modesto CA 95354,Layoff Permanent,66,31-33 Manufacturing
+2026-08-07,2026-10-15,2026-08-07,Renteria Vineyard Management,Napa County,462 Devlin Road  Napa CA 94558,Layoff Temporary,91,11 Agriculture Forestry Fishing Hunting
+2026-08-06,2026-10-06,2026-08-06,LAZ Parking California (5251 West 98th Street),Los Angeles County,5251 West 98th Street  Los Angeles CA 90045,Layoff Permanent,50,81 Other Services Except Public Administration
+2026-08-06,2026-10-06,2026-08-06,LAZ Parking California (5455 West 111th Street),Los Angeles County,5455 West 111th Street  Los Angeles CA 90045,Layoff Permanent,58,81 Other Services Except Public Administration
+2026-08-06,2026-10-06,2026-08-06,LAZ Parking California (9610 Sky Way),Los Angeles County,9610 Sky Way  Los Angeles CA 90045,Layoff Permanent,139,81 Other Services Except Public Administration
+2026-08-05,2026-10-05,2026-08-05,"Eclipse Advantage, LLC",San Bernardino County,5540 East 4th Street  Ontario CA 91764,Layoff Permanent,18,56 Administrative and Support and Waste Management and Remediation
+2026-08-05,2026-10-05,2026-08-05,"Salesforce, Inc.",San Francisco County,415 Mission Street  San Francisco CA 94105,Layoff Permanent,74,51 Information
+2026-08-05,2026-10-09,2026-08-06,Staples Fulfillment Center,Los Angeles County,16501 Trojan Way  La Mirada CA 90638,Closure Permanent,109,44-45 Retail Trade
+2026-08-04,2026-10-05,2026-08-04,"Nutanix, Inc.",Santa Clara County,1740 Technology Drive  San Jose CA 95110,Layoff Permanent,65,51 Information
+2026-08-03,2026-10-03,2026-08-06,Essendant Co.,Riverside County,4555 Redlands Ave.  Perris CA 92571,Closure Permanent,4,42 Wholesale Trade
+2026-08-03,2026-10-03,2026-08-06,Essendant Co.,Sacramento County,7021 Roseville Rd.  Sacramento CA 95842,Closure Permanent,99,42 Wholesale Trade
+2026-07-31,2026-09-30,2026-08-03,"Chime Financial, Inc.",San Francisco County,"101 California Street, Suite 500  San Francisco CA 94111",Layoff Permanent,135,52 Finance and Insurance
+2026-07-31,2026-09-30,2026-08-03,"TPE Acquisition, LLC - 5026",San Bernardino County,5026 Chino Hills Parkway  Chino CA 91710,Closure Permanent,12,48-49 Transportation and Warehousing
+2026-07-31,2026-09-30,2026-08-03,"TPE Acquisition, LLC - 5116",San Bernardino County,5116 Chino Hills Parkway  Chino CA 91710,Closure Permanent,3,48-49 Transportation and Warehousing
+2026-07-31,2026-10-01,2026-07-31,Visa,San Mateo County,900 Metro Center Blvd  Foster City CA 94404,Layoff Permanent,320,52 Finance and Insurance
+2026-07-31,2026-10-01,2026-07-31,"WeDriveU, Inc.",Kern County,5438 Victor Street  Bakersfield CA 93308,Closure Permanent,34,48-49 Transportation and Warehousing
+2026-07-31,2026-10-01,2026-07-31,"WeDriveU, Inc.",Kern County,16922 Airport Blvd #25  Mojave CA 93501,Closure Permanent,12,48-49 Transportation and Warehousing
+2026-07-31,2026-10-01,2026-07-31,"WeDriveU, Inc.",Kern County,6075 Lake Isabella Blvd.  Lake Isabella CA 93240,Closure Permanent,15,48-49 Transportation and Warehousing
+2026-07-31,2026-10-01,2026-07-31,"WeDriveU, Inc.",Kern County,1536 Lebec Service Rd.  Lebec CA 92430,Closure Permanent,1,48-49 Transportation and Warehousing
+2026-07-31,2026-10-01,2026-07-31,"WeDriveU, Inc.",Kern County,314 N Hayes St.  Tehachapi CA 93524,Closure Permanent,1,48-49 Transportation and Warehousing
+2026-07-31,2026-10-01,2026-07-31,Yamaha Motor Finance Corporation U.S.A.,Orange County,6555 Katella Avenue  Cypress CA 90630,Closure Permanent,61,52 Finance and Insurance
+2026-07-30,2026-11-13,2026-08-04,"San Francisco Pretrial Diversion Project, Inc.",San Francisco County,1200 Folsom Street  San Francisco CA 94103,Closure Permanent,82,62 Healthcare and Social Assistance
+2026-07-30,2026-09-28,2026-07-31,"Veritone, Inc.",Orange County,"5291 California Ave., Ste. 350  Irvine CA 92617",Layoff Permanent,10,54 Professional Scientific and Technical Services
+2026-07-29,2026-09-29,2026-07-29,Federal Express Corporation,Riverside County,111 Bird Center Dr  Palm Springs CA 92262,Closure Permanent,62,48-49 Transportation and Warehousing
+2026-07-29,2026-09-28,2026-07-29,Tencent America LLC,Orange County,15201 Laguna Canyon Rd.  Irvine CA 92618,Layoff Permanent,68,51 Information
+2026-07-28,2026-09-28,2026-07-29,Federal Express Corporation,San Bernardino County,12212 Industrial Blvd.  Victorville CA 92395,Closure Permanent,54,48-49 Transportation and Warehousing
+2026-07-28,2026-09-30,2026-07-30,"International Rescue Committee, Inc.",Sacramento County,"2020 Hurley Way, Ste 395  Sacramento CA 95825",Layoff Permanent,41,62 Healthcare and Social Assistance
+2026-07-28,2026-09-30,2026-07-30,"International Rescue Committee, Inc.",Stanislaus County,"3446 N. Golden State Blvd, Ste A  Turlock CA 95382",Layoff Permanent,15,62 Healthcare and Social Assistance
+2026-07-28,2026-09-28,2026-07-28,"ServiceNow, Inc.",Santa Clara County,2225 Lawson Lane  Santa Clara CA 95054,Layoff Permanent,154,54 Professional Scientific and Technical Services
+2026-07-28,2026-09-28,2026-07-28,"ServiceNow, Inc.",San Diego County,4801 Eastgate Mall  San Diego CA 92121,Layoff Permanent,133,54 Professional Scientific and Technical Services
+2026-07-28,2026-10-04,2026-07-30,Sunnyside Restaurant and Lodge,Placer County,1850 West Lake Blvd  Tahoe City CA 96145,Closure Permanent,47,72 Accommodation and Food Services
+2026-07-27,2026-09-26,2026-07-27,O'Brien's Market Inc.,Stanislaus County,839 W. Roseburg Avenue  Modesto CA 95350,Closure Permanent,50,44-45 Retail Trade
+2026-07-27,2026-09-27,2026-07-27,O'Briens Market Inc.,Stanislaus County,4120 Dale Road  Modesto CA 95356,Closure Permanent,67,44-45 Retail Trade
+2026-07-27,2026-08-28,2026-07-27,PD Systems,Monterey County,"Fort Hunter Liggett, Building 3360 Hunter Liggett Road Jolon CA 93928",Layoff Permanent,81,54 Professional Scientific and Technical Services
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC",Los Angeles County,9847 Pioneer Blvd.  Santa Fe Springs CA 90670,Layoff Permanent,6,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - Bakersfield/Fresno",Kern County,3023 Unicorn Rd.  Bakersfield CA 93308,Layoff Permanent,1,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - Petaluma",Sonoma County,775 Southpoint Blvd.  Petaluma CA 94954,Layoff Permanent,1,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - Riverside",Riverside County,1110 Palmyrita Ave.  Riverside CA 92507,Layoff Permanent,2,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - Sacramento",Sacramento County,"2934 Ramona Ave., Suite 100  Sacramento CA 95826",Layoff Permanent,3,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - San Fernando Valley",Los Angeles County,9753 Independence Ave.  Chatsworth CA 91311,Layoff Permanent,2,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - San Leandro",Alameda County,3041 Teagarden Street  San Leandro CA 94577,Layoff Permanent,4,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - Santa Ana",Orange County,1401 E. Borchard Ave.  Santa Ana CA 92705,Layoff Permanent,1,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - Santa Barbara",Santa Barbara County,2373 A Street  Santa Maria CA 93455,Layoff Permanent,1,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - Santa Cruz",Santa Cruz County,1115 Thompson Ave. #6  Santa Cruz CA 95062,Layoff Permanent,1,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - Santa Maria",Santa Barbara County,2373 A Street  Santa Maria CA 93455,Layoff Permanent,1,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - Santa Rosa",Sonoma County,"1536 Hampton Way, Unit B  Santa Rosa CA 95407",Layoff Permanent,1,42 Wholesale Trade
+2026-07-27,2026-09-01,2026-07-28,"Yerba Mate Co., LLC - South San Francisco",San Mateo County,225 Harris Court  South San Francisco CA 94080,Layoff Permanent,1,42 Wholesale Trade
+2026-07-24,2026-09-27,2026-07-24,Chick-fil-A & Fig,Los Angeles County,"660 S Figueroa St., Ste. 100  Los Angeles CA 90017",Layoff Temporary,77,72 Accommodation and Food Services
+2026-07-24,2026-08-15,2026-07-27,Intel Corporation - Robert Noyce Building,Santa Clara County,2200 Mission College Blvd  Santa Clara CA 95054,Layoff Permanent,24,54 Professional Scientific and Technical Services
+2026-07-24,2026-08-15,2026-07-27,Intel Corporation - SC-12,Santa Clara County,3600 Juliette Lane  Santa Clara CA 95054,Layoff Permanent,67,54 Professional Scientific and Technical Services
+2026-07-24,2026-08-15,2026-07-27,Intel Corporation - SC-9,Santa Clara County,3601 Juliette Lane  Santa Clara CA 95054,Layoff Permanent,10,54 Professional Scientific and Technical Services
+2026-07-24,2026-08-15,2026-07-27,Intel Corporation - SC11,Santa Clara County,2191 Laurelwood Rd.  Santa Clara CA 95054,Layoff Permanent,2,54 Professional Scientific and Technical Services
+2026-07-24,2026-09-30,2026-07-28,Sodexo,Orange County,1020 W Ball Rd.  Anaheim CA 92802,Closure Permanent,164,72 Accommodation and Food Services
+2026-07-23,2026-08-21,2026-07-23,Fortrex,Imperial County,57 Shank Road  Brawley CA 92227,Layoff Permanent,91,56 Administrative and Support and Waste Management and Remediation
+2026-07-22,2026-09-20,2026-07-22,"CraftForce Services, Inc. (2330 Circadian Way)",Sonoma County,2330 Circadian Way  Santa Rosa CA 95407,Closure Permanent,51,56 Administrative and Support and Waste Management and Remediation
+2026-07-22,2026-09-20,2026-07-22,"CraftForce Services, Inc. (2753 Giffen Avenue)",Sonoma County,2753 Giffen Avenue  Santa Rosa CA 95407,Closure Permanent,7,56 Administrative and Support and Waste Management and Remediation
+2026-07-22,2026-09-21,2026-07-23,"Uber Technologies, Inc. (1655 3rd Street)",San Francisco County,1655 3rd Street  San Francisco CA 94158,Layoff Permanent,26,48-49 Transportation and Warehousing
+2026-07-22,2026-09-21,2026-07-23,"Uber Technologies, Inc. (1725 3rd St.)",San Francisco County,1725 3rd St.  San Francisco CA 94158,Layoff Permanent,1,48-49 Transportation and Warehousing
+2026-07-22,2026-09-21,2026-07-23,"Uber Technologies, Inc. (Remote)",San Francisco County,1655 3rd Street (Remote)  San Francisco CA 94158,Layoff Permanent,14,48-49 Transportation and Warehousing
+2026-07-21,2026-09-20,2026-07-21,"New Leaf Community Markets, Inc.",Santa Clara County,5667 Silver Creek Valley Road  San Jose CA 95138,Closure Permanent,61,44-45 Retail Trade
+2026-07-21,2026-09-26,2026-07-22,Pixar,Alameda County,1200 Park Avenue  Emeryville CA 94608,Layoff Permanent,108,71 Arts Entertainment and Recreation
+2026-07-21,2026-09-21,2026-07-28,Silgan Containers,Stanislaus County,430 Doherty Ave.  Modesto CA 95354,Layoff Temporary,55,56 Administrative and Support and Waste Management and Remediation
+2026-07-21,2026-07-21,2026-08-06,Silgan Containers,Stanislaus County,567 S Riverside Drive  Modesto CA 95354,Layoff Temporary,60,56 Administrative and Support and Waste Management and Remediation
+2026-07-20,2026-09-21,2026-07-20,"DesigneRX Pharmaceuticals, Inc.",Solano County,"4941 Allison Parkway, Suite B  Vacaville CA 95688",Layoff Permanent,25,54 Professional Scientific and Technical Services
+2026-07-17,2026-10-01,2026-07-20,"Magic Leap, Inc.",Santa Clara County,1376 Bordeaux Dr.  Sunnyvale CA 94089,Layoff Permanent,76,54 Professional Scientific and Technical Services
+2026-07-17,2026-09-20,2026-07-17,"Monterey Mushrooms, LLC",Santa Clara County,642 Hale Ave.  Morgan Hill CA 95037,Layoff Permanent,253,11 Agriculture Forestry Fishing Hunting
+2026-07-17,2026-08-28,2026-07-17,"NBCUniversal Media, LLC - 1320",Los Angeles County,"100 Universal City Plaza, Bldg. 1320  Universal City CA 91608",Layoff Permanent,3,71 Arts Entertainment and Recreation
+2026-07-17,2026-08-28,2026-07-17,"NBCUniversal Media, LLC - 1360",Los Angeles County,"100 Universal City Plaza, Bldg. 1360  Universal City CA 91608",Layoff Permanent,5,71 Arts Entertainment and Recreation
+2026-07-17,2026-08-28,2026-07-17,"NBCUniversal Media, LLC - 1460",Los Angeles County,"100 Universal City Plaza, Bldg. 1460  Universal City CA 91608",Layoff Permanent,55,71 Arts Entertainment and Recreation
+2026-07-17,2026-08-28,2026-07-17,"NBCUniversal Media, LLC -1440",Los Angeles County,"100 Universal City Plaza, Bldg. 1440  Universal City CA 91608",Layoff Permanent,87,71 Arts Entertainment and Recreation
+2026-07-16,2026-07-31,2026-07-17,"Aramark Campus, LLC",San Bernardino County,1259 E Colton Avenue  Redlands CA 92374,Layoff Permanent,94,72 Accommodation and Food Services
+2026-07-16,2026-09-16,2026-07-16,Phillips 66,Los Angeles County,1660 W. Anaheim Street  Wilmington CA 90744,Closure Permanent,5,31-33 Manufacturing
+2026-07-15,2026-09-14,2026-07-15,"Eargo, Inc.",Santa Clara County,"2665 North First Street, Suite 3000  San Jose CA 95134",Closure Permanent,57,31-33 Manufacturing
+2026-07-15,2026-09-18,2026-07-17,Ventura Coastal,Tulare County,531 W. Poplar Avenue  Tipton CA 93272,Layoff Temporary,71,31-33 Manufacturing
+2026-07-14,2026-09-11,2026-07-15,"Coursera, Inc.",Santa Clara County,"2440West El Camino Real, Suite 500  Mountain View CA 94040",Layoff Permanent,31,54 Professional Scientific and Technical Services
+2026-07-14,2026-09-30,2026-07-15,"ELC Beauty LLC (Too Faced Cosmetics, LLC)",Orange County,18231 W. McDurmott #100  Irvine CA 92614,Closure Permanent,67,44-45 Retail Trade
+2026-07-14,2026-09-14,2026-07-14,"GMRI, Inc. dba Yard House",Orange County,"1875 Newport Blvd., A219  Costa Mesa CA 92627",Closure Permanent,78,72 Accommodation and Food Services
+2026-07-14,2026-09-13,2026-07-20,Queen City Staffing,Sonoma County,2717 Giffen Avenue  Santa Rosa CA 95407,Closure Permanent,49,56 Administrative and Support and Waste Management and Remediation
+2026-07-14,2026-08-31,2026-07-15,Red Lobster Restaurants LLC,Santa Barbara County,1525 S. Bradley Road  Santa Maria CA 93454,Closure Permanent,37,72 Accommodation and Food Services
+2026-07-14,2026-09-11,2026-07-14,"Udemy, Inc.",San Francisco County,"600 Harrison Street, 3rd Floor  San Francisco CA 94107",Layoff Permanent,28,61 Educational Services
+2026-07-14,2026-09-15,2026-07-20,Wind & Sea Restaurant,Orange County,34699 Golden Lantern  Dana Point CA 92629,Closure Permanent,198,72 Accommodation and Food Services
+2026-07-13,2026-09-11,2026-07-14,"AWCS, LLC (Cottonwood Post-Acute Rehab",Yolo County,625 Cottonwood St.  Woodland CA 95695,Closure Temporary,158,62 Healthcare and Social Assistance
+2026-07-10,2026-08-31,2026-07-10,6th Street Center for Youth (Youth for Change),Butte County,130 W. 6th Street  Chico CA 95928,Closure Permanent,6,62 Healthcare and Social Assistance
+2026-07-10,2026-09-18,2026-07-14,"GXO Logistics Worldwide, LLC",San Bernardino County,7010 Cajon Blvd.  San Bernardino CA 92407,Closure Permanent,46,48-49 Transportation and Warehousing
+2026-07-09,2026-09-07,2026-07-09,OnPoint Logistics LLC,San Francisco County,749 Toland Street  San Francisco CA 94124,Closure Permanent,96,48-49 Transportation and Warehousing
+2026-07-09,2026-09-09,2026-07-09,Xpress Delivery LLC (DSJ9),Alameda County,5800 Coliseum Way  Oakland CA 94621,Closure Permanent,80,48-49 Transportation and Warehousing
+2026-07-08,2026-09-08,2026-07-10,Sentinel Restaurant & Hospitality Group LLC,Orange County,627 Sleepy Hollow Ln  Laguna Beach CA 92651,Closure Permanent,113,72 Accommodation and Food Services
+2026-07-07,2026-09-08,2026-07-08,LeeMAH Electronics,San Mateo County,155 South Hill Drive  Brisbane CA 94005,Closure Permanent,212,31-33 Manufacturing
+2026-07-07,2026-09-05,2026-07-13,The Vons Companies Inc.,Los Angeles County,845 E. California St.  Pasadena CA 91106,Closure Permanent,55,44-45 Retail Trade
+2026-07-06,2026-09-03,2026-07-13,GEODIS,San Bernardino County,1950 Palmetto Ave.  Redlands CA 92374,Closure Permanent,81,48-49 Transportation and Warehousing
+2026-07-06,2026-09-04,2026-07-07,Obsidian,Orange County,100 Spectrum Center Dr.  Irvine CA 92618,Layoff Permanent,52,71 Arts Entertainment and Recreation
+2026-07-02,2026-09-04,2026-07-02,Blue Diamond Growers,Sacramento County,1802 C Street  Sacramento CA 95811,Closure Permanent,31,31-33 Manufacturing
+2026-07-02,2026-09-03,2026-07-07,DHL Supply Chain,Orange County,701A Sally Pl  Fullerton CA 92831,Closure Permanent,33,48-49 Transportation and Warehousing
+2026-07-02,2026-09-15,2026-07-02,"Kingdom Animalia, LLC (Hourglass Cosmetics)",Los Angeles County,17110 South Main Street  Carson CA 90248,Closure Permanent,7,42 Wholesale Trade
+2026-07-01,2026-09-01,2026-07-08,Chevron,Contra Costa County,"5001 Executive Parkway, Suite 200  San Ramon CA 94583",Layoff Permanent,180,21 Mining Quarrying Oil and Gas Exraction
+2026-06-30,2026-08-30,2026-07-01,Athwal FDS Corporation,San Bernardino County,932 West Mill Street  San Bernardino CA 92410,Layoff Permanent,35,56 Administrative and Support and Waste Management and Remediation
+2026-06-30,2026-09-01,2026-07-01,McDonald's Corporation,Los Angeles County,17030 Green Drive  City of Industry CA 91745,Closure Permanent,2,72 Accommodation and Food Services
+2026-06-26,2026-08-28,2026-07-14,Conduent,Orange County,"11165 Knott Avenue, Suite D  Cypress CA 90630",Layoff Permanent,51,54 Professional Scientific and Technical Services
+2026-06-26,2026-07-29,2026-07-01,"Genentech, Inc.",San Mateo County,1 DNA Way  South San Francisco CA 94080,Layoff Permanent,103,54 Professional Scientific and Technical Services

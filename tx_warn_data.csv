@@ -1,0 +1,398 @@
+notice_date,company,county,city,employees
+2026-10-07,Provider Partner Care Management L.P,Tarrant,Fort Worth,79
+2026-10-06,Cayuga Home for Children,Tarrant,Arlington,18
+2026-10-02,"Grunt Style, LLC (El Paso)",El Paso,El Paso,9
+2026-10-02,"Grunt Style, LLC (San Antonio)",Bexar,San Antonio,19
+2026-09-30,Charter Next Generation,Dallas,Grand Prairie,56
+2026-09-28,Hello Bello Consumer Wellness,McLennan,Waco,67
+2026-09-25,Arl-La-Tex Financia Services,Collin,Plano,81
+2026-09-15,Truist Bank,Tarrant,Arlington,205
+2026-09-11,4XH Logistics LLC,Bexar,San Antonio,230
+2026-09-11,New Tech Global Staffing,Harris,Houston,121
+2026-09-08,Conifer's Health Solutions,Dallas,Dallas,1037
+2026-09-08,Eagles Delivery LLC,Denton,Roanoke,115
+2026-09-08,Texas Family Initiative LLC,Dallas,Dallas,307
+2026-09-04,Keystone Tower Systems,Gray,Pampa,79
+2026-09-01,Louisiana-Pacific,Jasper,Jasper,150
+2026-08-28,MCD Innovations (2026),Collin,McKinney,54
+2026-08-27,"CTI Foods Bean, LLC",Tarrant,Saginaw,66
+2026-08-25,"Birchstone Management,LLC",Dallas,Dallas,55
+2026-08-11,Dylan Logistics LLC (Fort Worth),Denton,Fort Worth,70
+2026-08-11,Dylan Logistics LLC (Lewisville),Denton,Lewisville,97
+2026-08-11,"Postal Center International, Inc",Bexar,San Antonio,164
+2026-08-07,"T-Mobile USA, Inc. (Texas Irving Office)",Dallas,Irving,113
+2026-08-05,"Revol Greens Tx, LLC",Bell,Temple,115
+2026-08-04,Essendant,Dallas,Irving,136
+2026-08-03,80 Acres Farms,Bexar,San Antonio,166
+2026-07-31,A Metropolis Company (Express Parking),Tarrant,Dallas,90
+2026-07-31,A Metropolis Company (Main Building),Tarrant,Dallas,6
+2026-07-31,A Metropolis Company (Rental Car),Tarrant,Dallas,130
+2026-07-31,A Metropolis Company (Terminal Link),Tarrant,Dallas,87
+2026-07-31,BioTouch Company,Dallas,Dallas,59
+2026-07-22,Temco Logistics,Dallas,Dallas,71
+2026-07-21,Showcase Window and Door,Fort Bend,Missouri City,61
+2026-07-16,International Paper- (Carrollton),Dallas,Carrollton,58
+2026-07-10,Fifth Third Bank,Denton,Frisco,115
+2026-07-08,"Charter Communications,LLC",Williamson,Austin,112
+2026-07-06,ZeniMax MEDIA INC. (Austin) Bethesda Game Studios,Travis,Austin,22
+2026-07-06,"ZeniMax MEDIA INC. (Richardson, Texas)",Dallas,Richardson,136
+2026-07-01,Baker Hughes Company,Harris,Houston,174
+2026-06-23,JPMorgan Chase & Co.,Collin,Plano,244
+2026-06-16,KUEHNE + NAGEL (KN) 2026,Denton,Lewisville,90
+2026-06-12,First Student (DeSoto I.S.D.),Dallas,De Soto,74
+2026-06-12,"Fortrex (John Soules Foods, Inc.)",Smith,Tyler,85
+2026-06-12,SAKS GLOBAL (Neiman Marcus),Dallas,Dallas,67
+2026-06-09,"Remington Lodging and Hospitality, LLC (Hilton Houston NASA Clear Lake)",Harris,Houston,65
+2026-06-08,Alan Ritchey Incorporated,Dallas,Irving,232
+2026-06-08,El Paso Independent School District,El Paso,El Paso,250
+2026-06-04,MW Components (Matthew Warren Inc's USA Fastner Facility),Harris,Houston,53
+2026-05-29,Toshiba International Corporation,Harris,Houston,67
+2026-05-19,"Auzmet Architectural, LLC",Dallas,Dallas,152
+2026-05-14,"Compass Group USA, Inc. (d/b/a Chartwell's Higher Education (Texas Southern Univ.)",Harris,Houston,88
+2026-05-02,Spirit Airlines (DFW) May 2026,Dallas,Dallas,444
+2026-05-02,Spirit Airlines (IAH) May 2026,Harris,Houston,515
+2026-05-01,"Amcor Rigid Packaging USA, LLC",Tarrant,Fort Worth,56
+2026-04-30,"Sodexo (SDH Services East, LLC) Fort Worth Independent School District",Tarrant,Fort Worth,291
+2026-04-27,"FreshRealm, Inc.",Dallas,Lancaster,161
+2026-04-27,Laurel Ridge Treatment Center (Laurel Ridge),Bexar,San Antonio,648
+2026-04-23,"National Safety Apparel, LLC",Bexar,San Antonio,50
+2026-04-23,"Republic National Distributing Company, LLC (Reyes Holdings, L.L.C) Austin",Travis,Austin,164
+2026-04-23,"Republic National Distributing Company, LLC (Reyes Holdings, L.L.C) Corpus Christie",Nueces,Corpus Ch,90
+2026-04-23,"Republic National Distributing Company, LLC (Reyes Holdings, L.L.C) Grand Prairie",Tarrant,Grand Prairie,689
+2026-04-23,"Republic National Distributing Company, LLC (Reyes Holdings, L.L.C) Houston",Harris,Houston,588
+2026-04-23,"Republic National Distributing Company, LLC (Reyes Holdings, L.L.C) San Antonio",Bexar,Schertz,372
+2026-04-21,"Southern Mail Service, Inc.",Harris,Houston,50
+2026-04-15,Saddle Creek Corporation,Montgomery,New Caney,168
+2026-04-14,"T-Mobile USA, Inc.",Travis,Austin,74
+2026-04-08,"Ampac Mobile Holdings, LLC (ProAmpac)",Tarrant,Grand Prairie,52
+2026-04-06,"Sodexo (SDH Services East, LLC) HCA Clear Lake",Harris,Webster,86
+2026-04-06,"Sodexo (SDH Services East, LLC) HCA Kingwood",Harris,Kingwood,81
+2026-04-06,"Sodexo (SDH Services East, LLC) HCA Southeast Texas Medical Center",Harris,Pasadena,63
+2026-04-06,"Sodexo (SDH Services East, LLC) HCA Women's Hospital of Texas",Harris,Houston,66
+2026-04-02,DSV Contract Logistics (3PL Logistics Facility),Dallas,Wilmer,391
+2026-04-01,GoldStar Transit (GST) Eagle Mountain/Saginaw Independent School District,Tarrant,Fort Worth,336
+2026-03-31,"Compass Group USA, Inc. (d/b/a Chartwell's Higher Education (Texas State University)",Hays,San Marcos,183
+2026-03-31,Hyatt Regency (South Congress Hotel),Travis,Austin,126
+2026-03-26,"CPLC Texas, Inc. (Magnolia ORR Site)",Cameron,Los Fresnos,56
+2026-03-26,Endeavors Eagle Lake Children's Center (Eagle Lake),Colorado,Eagle Lake,88
+2026-03-26,Tempus Holding INC. d/b/a The Lodge Card Club,Travis,Round Rock,144
+2026-03-25,Albertsons #106 (Euless),Tarrant,Euless,82
+2026-03-25,Albertsons #4286 (W. Freeway),Tarrant,Fort Worth,56
+2026-03-06,Saks & Company LLC (Saks Fifth Avenue - San Antonio),Bexar,San Antonio,71
+2026-03-05,Ashley Furniture Industries (Mesquite),Dallas,Mesquite,266
+2026-03-04,First Brands Group LLC. (ASC Facility),Cameron,Brownsville,43
+2026-03-04,"First Brands Group, LLC(Billy Mitchell)",Cameron,Brownsville,345
+2026-03-04,"First Brands Group, LLC. (Titan Dist. Center)",Cameron,Brownsville,183
+2026-03-03,"Campbell Soup Supply Company, LLC",Lamar,Paris,205
+2026-02-19,Bluum USA Inc.,Dallas,Irving,60
+2026-02-19,"Main Street Sports Group, LLC.",Montgomery,The Woodlands,18
+2026-02-19,Stockyards Hotel and H3 Ranch,Tarrant,Fort Worth,120
+2026-02-18,Walgreens (Greens Rd.),Harris,Houston,159
+2026-02-11,Comerica Bank(Frisco Star Tower Facility),Denton,Frisco,54
+2026-02-09,Randalls #3067,Harris,Houston,94
+2026-02-04,"Empower Clinic Services, LLC",Harris,Houston,57
+2026-02-04,"First Brands Group, LLC",Tarrant,Arlington,87
+2026-02-04,HGS Solutions,El Paso,El Paso,92
+2026-02-03,Expedia Group Inc. (Austin),Travis,Austin,100
+2026-02-02,Helpful Hands Inc. Joint Base San Antonio-Lackland,Bexar,San Antonio,96
+2026-02-02,Janus International Group,Harris,Houston,113
+2026-01-29,Compass Connections,Cameron,Harlingen,148
+2026-01-28,Cardone Industries-Arlington,Tarrant,Arlington,87
+2026-01-28,Cardone Industries-Harlingen,Cameron,Harlingen,41
+2026-01-28,Fresenius USA Manufacturing,Dallas,Coppell,67
+2026-01-23,Power Plug Inc. (Houston Manufacturing Company),Harris,Houston,74
+2026-01-21,Future Proof Brands LLC (Austin),Travis,Austin,158
+2026-01-20,"Sodexo, Inc. and Affiliates",Collin,Plano,85
+2026-01-20,"Tyson Foods, Inc (Amarillo B-Shift Operations) Updated",Potter,Amarillo,1761
+2026-01-14,Francesca's (Houston),Harris,Houston,202
+2026-01-09,"Congo, LLC (Updated March 2026)",Denton,Lewisville,31
+2026-01-07,ComericA Frisco Star Tower Facility,Denton,Frisco,184
+2026-01-07,Tessera Therapeutics,Harris,Friendswood,2
+2025-12-29,FedEx Corporation Facility (Ft. Worth),Tarrant,Ft. Worth,89
+2025-12-26,"Telvista, Inc.",Tarrant,Dallas,110
+2025-12-22,ABM Texas General Services (SMU),Dallas,Dallas,211
+2025-12-10,LeeMAH Electronics. Inc.,Dallas,Richardson,84
+2025-12-10,S&S Activewear,Dallas,Irving,146
+2025-12-03,"CRST Expedited, Inc. d/b/a CRST The Transportation Solution, Inc.",Tarrant,Mansfield,1
+2025-12-03,Grand Lux Café LLC,Harris,Houston,83
+2025-12-02,The Sheraton Arlington Hotel (Urbana Varro Hospitality Management),Tarrant,Arlington,110
+2025-12-02,Yang Ming (America) Corporation Updated,Harris,Houston,105
+2025-11-26,"Tyson Foods, Inc. (Amarillo B-Shift Operations",Potter,Amarillo,1761
+2025-11-25,"FedEx Supply Chain Logistics & Electrronics, Inc. (Coppell)",Dallas,Coppell,856
+2025-11-21,Huntington National Bank,Dallas,Dallas,63
+2025-11-19,United Supermarkets,Lubbock,Lubbock,126
+2025-11-18,Wood Group USA Inc.,Brazoria,Freeport,180
+2025-11-17,"Couchbase, Inc.",Travis,Austin,11
+2025-11-14,Dometic Corporation,Dallas,Grand Prairie,54
+2025-11-12,DLH Solutions (Dallas CMOP),Dallas,Lancaster,298
+2025-11-08,"Dillard's Inc.(Dillard's Texas Central, LLC)",Collin,Plano,93
+2025-11-06,AI Fleet,Travis,Austin,56
+2025-11-05,Apogee Architectural Metals,Dallas,Mesquite,58
+2025-11-04,"Firebird Bulk Carriers, Inc. (George West)",Live Oak,George West,21
+2025-11-04,"Firebird Bulk Carriers, Inc. (Victoria)",Victoria,Victoria,3
+2025-11-04,"Firebird Bulk Carriers, Inc.(Tarzan)",Martin,Tarzan,1
+2025-10-31,"Firebird Bulk Carriers, Inc (Dayton)",Liberty,Dayton,2
+2025-10-31,"Firebird Bulk Carriers, Inc.(Dilley)",Frio,Dilley,6
+2025-10-31,"Natura PCR, LLC",Harris,Waller,88
+2025-10-30,"Firebird Bulk Carriers, Inc. (Bryan)",Brazos,Bryan,10
+2025-10-30,"Firebird Bulk Carriers, Inc. (Carrizo Springs)",Dimmit,Carrizo Springs,31
+2025-10-30,Pure Hothouse Foods LLC,Bexar,San Antonio,80
+2025-10-29,"Cherokee Nation System Solutions, LLC",Travis,Austin,87
+2025-10-29,"Colonial Savings, F.A.",Tarrant,Fort Worth,130
+2025-10-29,Tekni-Plex (Dallas Facility),Dallas,Dallas,64
+2025-10-29,Wells Fargo & Co. (Lubbock),Lubbock,Lubbock,225
+2025-10-28,"Congo, LLC",Denton,Lewisville,155
+2025-10-28,Job1 USA (Arlington),Tarrant,Arlington,31
+2025-10-28,Job1 USA (Fort Worth),Tarrant,Fort Worth,25
+2025-10-28,Job1 USA (Haslet),Tarrant,Haslet,25
+2025-10-23,Job1 USA (Houston),Harris,Houston,13
+2025-10-23,Job1 USA (San Antonio),Bexar,San Antonio,18
+2025-10-22,"Flagstone Foods, LLC (El Paso Plant)",El Paso,El Paso,225
+2025-10-15,Eden Green Technology,Johnson,Cleburne,102
+2025-10-15,Texas Instruments - Sherman,Grayson,Sherman,19
+2025-10-13,"M & M Manufacturing, Inc.",Harris,Houston,75
+2025-10-09,Creative Testing Solutions,Travis,Austin,91
+2025-10-08,"Lion Elastomers Orange, LLC (Orange Plant)",Orange,Orange,113
+2025-10-08,"Meadow Burke, LLC d/b/a Leviat",Tarrant,Fort Worth,75
+2025-10-02,J & J Maintenance,Bexar,San Antonio,279
+2025-10-02,Southwest Key Programs-Casa Canutillo,El Paso,Canutillo,2
+2025-10-02,Southwest Key Programs-Casa Houston Reliant,Harris,Houston,1
+2025-10-02,Southwest Key Programs-Casa Montezuma,Harris,Channelview,1
+2025-10-02,Southwest Key Programs-Casa Norma Linda,Cameron,Los Fresnos,3
+2025-10-02,Southwest Key Programs-Casa Nueva Esperanza,Cameron,Brownsville,8
+2025-10-02,Southwest Key Programs-Casa Quetzal,Harris,Houston,3
+2025-10-02,Southwest Key Programs-Casa Rio Grande,Cameron,San Benito,3
+2025-10-02,Southwest Key Programs-Casita Del Valle,El Paso,Clint,5
+2025-10-02,Southwest Key Programs-Houston Headquarters,Harris,Houston,10
+2025-10-02,Southwest Key Programs-National Headquarters (Austin),Travis,Austin,3
+2025-10-02,Southwest Key Programs-STX Regional Headquarters,Cameron,Brownsville,12
+2025-10-01,Memorial Hermann Health System Senior Living Facility,Harris,Houston,26
+2025-10-01,Yang Ming (America) Corporation,Harris,Houston,118
+2025-09-30,"DTSV, Inc. (ITC Federal)",Dallas,Irving,169
+2025-09-30,Holiday Inn Club Vacations Incorporated-The Villages Resort,Smith,Flint,82
+2025-09-30,"Seatrium AmFELS, Inc.",Cameron,Brownsville,91
+2025-09-30,Urban Alchemy (8th Street Shelter),Travis,Austin,54
+2025-09-30,Urban Alchemy (Arch Shelter),Travis,Austin,55
+2025-09-29,Texas Instruments  (DFAB),Dallas,Dallas,163
+2025-09-26,Cottonwood Creek Healthcare Community,Dallas,Richardson,70
+2025-09-25,"Kira Aerospace, LLC. (NBOC)",Anderson,Palestine,6
+2025-09-25,Spirit Airlines (W PGL Warehouse),Dallas,Irving,51
+2025-09-24,Spirit Airlines (IAH),Harris,Houston,173
+2025-09-18,Sunny Glen Children's Home,Willacy,Raymondville,424
+2025-09-17,Accelore Group-Amazon Logistics (DDA9- Fort Worth),Tarrant,Fort Worth,107
+2025-09-17,Accelore Group-Amazon Logistics (DDF2-Balch Springs),Dallas,Mesquite,107
+2025-09-10,"Hill & Smith, Inc.",Dallas,Garland,46
+2025-09-04,CyraCom International Inc.,Harris,Houston,327
+2025-09-04,"Essendant Management Services, LLC",Harris,Houston,92
+2025-09-03,"Condair Operations, LLC",Shelby,Center,51
+2025-08-27,MPW Services,Travis,Austin,82
+2025-08-20,"Tech Werks, LLC (San Antonio)",Bexar,San Antonio,87
+2025-08-18,"Promises Behavioral Health, LLC",Hays,Wimberley,58
+2025-08-13,"CarOffer, LLC",Dallas,Addison,101
+2025-08-06,"Solarcycle, Inc.",Ector,Odessa,70
+2025-08-06,"Southwest Key Programs, Inc. (Casa Canutillo)",El Paso,Canutillo,3
+2025-08-06,"Southwest Key Programs, Inc. (Casa Franklin)",El Paso,El Paso,1
+2025-08-06,"Southwest Key Programs, Inc. (Casa Norma Linda)",Cameron,Los Fresnos,3
+2025-08-06,"Southwest Key Programs, Inc. (Casa Rio Grande)",Cameron,San Benito,3
+2025-08-06,"Southwest Key Programs, Inc. (SWK National Headquarters)",Travis,Austin,45
+2025-08-06,"Southwest Key Programs, Inc. La Esperanza)",Cameron,Brownsville,4
+2025-08-06,"Southwest Key Programs, Inc.(Casa Nueva Esperanza)",Cameron,Brownsville,9
+2025-08-06,"Southwest Key Programs, Inc.(South Texas HQ)",Cameron,Brownsville,13
+2025-08-06,UPS (Dallas Facility),Dallas,Dallas,62
+2025-08-01,"Equus Workforce Solutions Houston Opertions- Acres Home (Arbor E&T, LLC)",Harris,Houston,12
+2025-08-01,"Equus Workforce Solutions Houston Opertions- Pearland (Arbor E&T, LLC)",Brazoria,Pearland,13
+2025-08-01,"Equus Workforce Solutions Houston Opertions- Westheimer Rd. (Arbor E&T, LLC)",Harris,Houston,28
+2025-07-31,"Equus Workforce Solutions-Alpha Rd.(Arbor E&T, LLC)",Dallas,Dallas,17
+2025-07-31,"Equus Workforce Solutions-Buckner Blvd.(Arbor E&T, LLC)",Dallas,Dallas,16
+2025-07-31,"Equus Workforce Solutions-Camp Wisdom (Arbor E&T, LLC)",Dallas,Dallas,1
+2025-07-31,"Equus Workforce Solutions-Greenville Ave. (Arbor E&T, LLC)",Dallas,Dallas,10
+2025-07-31,"Equus Workforce Solutions-Highway 161. (Arbor E&T, LLC)",Dallas,Grand Prairie,71
+2025-07-31,"Equus Workforce Solutions-Irving Blvd. (Arbor E&T, LLC)",Dallas,Irving,13
+2025-07-31,"Equus Workforce Solutions-Malcolm X Blvd.(Arbor E&T, LLC)",Dallas,Dallas,16
+2025-07-31,"Equus Workforce Solutions-N.Tenth St. (Arbor E&T, LLC)",Dallas,Garland,10
+2025-07-31,Planned Parenthood Gulf Coast (Prevention Park Facility),Harris,Houston,114
+2025-07-31,"Southwest Key Programs, Inc. (Casa Houston Reliant)",Harris,Houston,211
+2025-07-31,"Southwest Key Programs, Inc. (Casa Montezuma)",Harris,Channelview,238
+2025-07-31,"Southwest Key Programs, Inc. (Casa Oasis)",Hidalgo,McAllen,128
+2025-07-31,"Southwest Key Programs, Inc. (Casa Quetzal)",Harris,Houston,309
+2025-07-31,"Southwest Key Programs, Inc. (Casa Sueno)",Hidalgo,Weslaco,93
+2025-07-31,"Southwest Key Programs, Inc. (Casa Sunzal)",Harris,Houston,223
+2025-07-31,"Southwest Key Programs, Inc. (Houston HQ)",Harris,Houston,11
+2025-07-31,"Turner Industries (Paris, Texas September 2025)",Lamar,Paris,211
+2025-07-30,"Equus Workforce Solutions Arlington (Arbor E&T, LLC)",Tarrant,Arlington,4
+2025-07-30,"Equus Workforce Solutions Denton (Arbor E&T, LLC)",Denton,Denton,27
+2025-07-30,"Equus Workforce Solutions Greenville (Arbor E&T, LLC)",Hunt,Greenville,9
+2025-07-30,"Equus Workforce Solutions McKinney (Arbor E&T, LLC)",Collin,McKinney,15
+2025-07-30,"Equus Workforce Solutions Stephenville (Arbor E&T, LLC)",Erath,Stephenville,2
+2025-07-30,"Equus Workforce Solutions Terrell  (Arbor E&T, LLC)",Kaufman,Terrell,8
+2025-07-30,"Equus Workforce Solutions Weatherford (Arbor E&T, LLC)",Parker,Weatherford,16
+2025-07-30,Trinity Rail-Trinity Tank Car-Jordan Valley,Gregg,Longview,170
+2025-07-23,Peraton Balloon Operations (NASA),Anderson,Palestine,81
+2025-07-21,Chevron Corporation (HESS Corporation),Harris,Houston,575
+2025-07-21,SM Cargo,Harris,Houston,194
+2025-07-16,"AMERICA, INC., d/b/a LIXIL",Tarrant,Grand Prairie,65
+2025-07-10,International Paper Company(N. 26th),Hidalgo,Edinburg,5
+2025-07-10,International Paper Company(N. Closner Blvd.),Hidalgo,Edinburg,66
+2025-07-10,International Paper Company(W. Chaplin),Hidalgo,Edinburg,66
+2025-07-10,"Sodexo, Inc.and Affiliates (Texas Southern University)",Harris,Houston,81
+2025-07-09,"GI Alliance Management, LLC",Denton,Southlake,25
+2025-07-09,Intel Corporation,Travis,Austin,110
+2025-07-09,Management & Training Corporation (Dominguez State Jail),Bexar,San Antonio,8
+2025-07-09,Management & Training Corporation (Gist State Jail),Jefferson,Beaumont,6
+2025-07-09,Management & Training Corporation (Hutchins State Jail),Dallas,Dallas,8
+2025-07-09,Management & Training Corporation (Lychner State Jail),Harris,Humble,17
+2025-07-09,Management & Training Corporation (Plane State Jail),Liberty,Dayton,8
+2025-07-09,Management & Training Corporation (Travis County State Jail),Travis,Austin,4
+2025-07-08,"Movate, Inc. (AT&T Project)",Bell,Temple,71
+2025-07-02,Fed Ex Corporation (Garland),Dallas,Garland,81
+2025-07-02,FedEx Corporation (Plano),Collin,Plano,50
+2025-07-02,International Business Machines-Coppell,Dallas,Coppell,59
+2025-07-02,Memorial Herman Health System Skilled Nursing Facility,Harris,Houston,83
+2025-07-02,Santa Maria Hostel,Harris,Houston,41
+2025-07-02,TT Electronics Facility IRC (Plano),Collin,Plano,75
+2025-06-24,"Compass Group, Inc.d.b.a.Chartwells (Lancaster ISD)",Dallas,Lancaster,83
+2025-06-24,Management & Training Corporation (Bridgeport Correctional Facility),Wise,Bridgeport,103
+2025-06-24,Management & Training Corporation (Gregory S. Coleman Unit),Caldwell,Lockhart,135
+2025-06-24,Management & Training Corporation (Kyle Correctional Center),Hays,Kyle,98
+2025-06-24,Management & Training Corporation (Lindsey State Jail),Jack,Jacksboro,117
+2025-06-24,Management & Training Corporation (Willacy County State Jail),Willacy,Raymondville,166
+2025-06-20,Management & Training Corp. (Billy Moore Correctional Center),Rusk,Overton,109
+2025-06-20,Management & Training Corp. (Bradshaw State Jail),Rusk,Henderson,172
+2025-06-18,"Encino Energy, LLC",Harris,Houston,121
+2025-06-18,"Khoros, LLC.",Travis,Austin,116
+2025-06-18,Tyson Foods (Fort Worth Distribution Center),Tarrant,Fort Worth,275
+2025-06-17,Lockheed Martin Corp. -Fort Bliss ATMP,El Paso,Fort Bliss,17
+2025-06-11,Movate Inc. (The Genesis Project),Bell,Temple,26
+2025-06-11,Randalls Store #1041,Harris,Houston,102
+2025-06-11,Tom Thumb Store #3645 Plano,Collin,Plano,75
+2025-06-04,Eckerd Connects (David Carrasco Job Corps),El Paso,El Paso,77
+2025-06-04,XiFin,Travis,Austin,87
+2025-06-03,JC Penney (Allaince Supply Chain),Tarrant,Haslet,296
+2025-05-28,Texana Center (Building A) Airport Service Center,Fort Bend,Rosenberg,27
+2025-05-28,Texana Center (Building B) Airport Service Center,Fort Bend,Rosenberg,25
+2025-05-28,Texana Center Aqua Vista Group,Fort Bend,Rosenberg,4
+2025-05-28,Texana Center Camden Landing Group Home,Fort Bend,Rosenberg,5
+2025-05-28,Texana Center Dovecoft Group Home,Fort Bend,Rosenberg,6
+2025-05-28,Texana Center El Campo Learning Center,Wharton,El Campo,9
+2025-05-28,Texana Center Glenn Lakes Group Home,Fort Bend,Missouri City,7
+2025-05-28,Texana Center Maude Group Home,Wharton,Wharton,4
+2025-05-28,Texana Center North Street Group Home,Fort Bend,Rosenberg,7
+2025-05-28,Texana Center Russeff Filed  Home,Fort Bend,Rosenberg,5
+2025-05-28,Texana Center Sunset Group Home,Wharton,Wharton,8
+2025-05-28,Texana Center University Group Home,Wharton,Wharton,5
+2025-05-28,Texana Center Willowbend Group Home,Wharton,Wharton,6
+2025-05-27,LACROIX,El Paso,El Paso,7
+2025-05-21,Child Care Associates,Tarrant,Ft. Worth,93
+2025-05-21,Child Care Associates (Arlington 2),Tarrant,Arlington,22
+2025-05-21,Child Care Associates (Blanche),Tarrant,Fort Worth,17
+2025-05-21,Child Care Associates (Carson),Tarrant,Fort Worth,14
+2025-05-21,Child Care Associates (Diamond Road),Tarrant,Fort Worth,13
+2025-05-21,Child Care Associates (Everman),Tarrant,Fort Worth,9
+2025-05-21,Child Care Associates (JA Hargrave),Tarrant,Fort Worth,19
+2025-05-21,Child Care Associates (Linda Kay),Tarrant,Hurst,15
+2025-05-21,Child Care Associates (Mansfield),Tarrant,Mansfield,15
+2025-05-21,Child Care Associates (Meachum),Tarrant,Fort Worth,15
+2025-05-21,Child Care Associates (Morris Foundation),Tarrant,Fort Worth,17
+2025-05-21,Child Care Associates (Reagan),Tarrant,Fort Worth,14
+2025-05-21,Child Care Associates (Rosedale V),Tarrant,Fort Worth,16
+2025-05-21,Child Care Associates (Tucker),Tarrant,Arlington,7
+2025-05-21,Child Care Associates(North Fort Worth),Tarrant,Fort Worth,16
+2025-05-21,F&S Produce West LLC,Harris,Houston,225
+2025-05-21,Sodexo (International Leadership TX),Dallas,Irving,165
+2025-05-20,FedEx Supply Chain Logistics & Electronics (Ft. Worth),Tarrant,Fort Worth,305
+2025-05-16,Chevron (Deauville Blvd),Midland,Midland,185
+2025-05-16,Chevron (N. FM 1788),Midland,Midland,14
+2025-05-16,Chevron (S. County Rd.),Midland,Midland,1
+2025-05-14,Atria Wealth Solutions,Fort Bend,Houston,55
+2025-05-14,International Paper Company (Edinburg W. Chapin),Hidalgo,Edinburg,64
+2025-05-14,International Paper Company (McAllen),Hidalgo,McAllen,5
+2025-05-14,International Paper Company(Edinburg),Hidalgo,Edinburg,63
+2025-05-08,Museum of Ice Cream,Travis,Austin,38
+2025-05-08,WSS (Foot Locker),Harris,Houston,57
+2025-05-07,TRIGO (Tesla),Travis,Austin,50
+2025-05-06,Smurfikt Westrock Facility (ForneyTexas),Kaufman,Forney,200
+2025-05-06,Tom Thumb Store #3579,Collin,Allen,75
+2025-05-01,Chick-Fil-A (N. Collins St. Plant),Tarrant,Arlington,10
+2025-04-30,PULAU Corporation,Bell,Killeen,64
+2025-04-30,Texas Central School Bus (Cougar Alley),Denton,The Colony,155
+2025-04-30,Texas Central School Bus (Mill),Denton,Lewisville,131
+2025-04-30,Texas Central School Bus (Purnell),Denton,Lewisville,174
+2025-04-23,"Graphic Solutions, Inc (Welch Rd)",Dallas,Dallas,2
+2025-04-23,"Graphic Solutions, Inc. (Spring Valley)",Dallas,Dallas,64
+2025-04-23,Graphic Solutuions Inc. (Farmers Branch),Dallas,Farmers Branch,5
+2025-04-16,MedStar Mobile Healthcare,Tarrant,Fort Worth,589
+2025-04-16,Virtex Enterprises LP,Travis,Austin,84
+2025-04-08,Catholic Charities Archdiocese Of Galveston-Houston (Cabrini CFLA)Collins Road,Fort Bend,Richmond,2
+2025-04-08,Catholic Charities Archdiocese Of Galveston-Houston (Cabrini CFLA)Louisiana Street,Harris,Houston,6
+2025-04-08,Catholic Charities Archdiocese Of Galveston-Houston (Cabrini CFLA)San Felipe,Harris,Houston,36
+2025-04-08,Catholic Charities Archdiocese Of Galveston-Houston (Cabrini CFLA)South Loop West,Harris,Houston,1
+2025-04-08,"Movate, Inc.",Bell,Temple,51
+2025-04-08,Raices (April 2025),Bexar,San Antonio,159
+2025-04-08,US Cellular Corporation,Archer,Wichita Falls,1
+2025-04-02,Denali,Collin,Plano,28
+2025-04-02,Envision Physician Services LLC,Bexar,San Antonio,120
+2025-04-02,Southeast Service Corporation Services for Education (Georgetown ISD),Williamson,Georgetown,60
+2025-03-26,American Bar Association (ProBAR),Cameron,Harlingen,191
+2025-03-26,Durhan School Services-Wichita Falls,Archer,Wichita Falls,1
+2025-03-26,SouthState Bank,Collin,McKinney,141
+2025-03-26,VF's Dickies Headquarters,Tarrant,Fort Worth,125
+2025-03-26,Waco Familly Medicine (MCC),McLennan,Waco,52
+2025-03-26,Waco Family Medicine (Bell's Hill),McLennan,Waco,52
+2025-03-26,Waco Family Medicine (Meyer Center),McLennan,Waco,52
+2025-03-19,"BH Security, LLC DBA Brinks Home",Dallas,Dallas,61
+2025-03-18,"Church World Service, Inc.",Harris,Houston,63
+2025-03-17,"C&S Family of Companies (GSC Wholesale, LLC)",Harris,Houston,21
+2025-03-12,Chewy Inc. Fullfillment Center,Dallas,Dallas,674
+2025-03-12,Constellis LLC (Laredo #2),Webb,Laredo,30
+2025-03-12,Constellis LLC (Laredo Border Station),Webb,Laredo,121
+2025-03-12,Country Pure Foods,Harris,Houston,60
+2025-03-12,"De La Paz Cleaning and Rental Services, LLC (Laredo)",Webb,Laredo,142
+2025-03-12,Grocery Delivery E Services USA DBA Hello Fresh (Tarrant),Tarrant,Grand Prairie,273
+2025-03-11,"Centerra (Constellis, LLC)",Hidalgo,McAllen,23
+2025-03-11,"De La Paz Cleaning and Rental Services, LLC (Donna)",Hidalgo,Donna,125
+2025-03-11,"De La Paz Cleaning and Rental Services, LLC (North Eagle Pass)",Maverick,Eagle Pass,60
+2025-03-11,Interfaith Ministries Of Greater Houston (Refugee Services Program),Harris,Houston,101
+2025-03-10,"Catholic Charities, Diocese of Fort Worth, INC",Tarrant,Fort Worth,169
+2025-03-06,"Hatco, Inc",Gregg,Longview,68
+2025-03-06,Ryder -Hutchins,Dallas,Hutchins,110
+2025-03-05,"LUKE Holdings, Inc (Eagle Pass)",Maverick,Eagle Pass,129
+2025-03-05,"LUKE Holdings, Inc. (Del Rio)",Val Verde,Del Rio,36
+2025-03-05,"LUKE Holdings, Inc. (Donna)",Hidalgo,Donna,201
+2025-03-05,Pure Safety Group Inc. DBA Guardian Fall,Harris,Houston,59
+2025-03-03,JELD -WEN -Coppell,Dallas,Coppell,56
+2025-03-03,"LUKE Holdings, Inc. (El Paso)",El Paso,El Paso,227
+2025-03-03,"LUKE Holdings, Inc.(Laredo)",Webb,Laredo,73
+2025-02-26,MVM,El Paso,El Paso,247
+2025-02-26,"MVM, Inc. (McAllen)",Hidalgo,McAllen,132
+2025-02-25,Houston Refining LP (2025),Harris,Houston,345
+2025-02-24,Christus Health Santa Rosa Medical Center,Bexar,San Antonio,479
+2025-02-24,L3Harris Technologies (JAVA MAN Program),Rockwall,Rockwall,179
+2025-02-19,Neiman Marcus-One Marcus Square,Dallas,Dallas,1
+2025-02-19,Southwest - Dallas Lovefield Airport,Dallas,Dallas,626
+2025-02-18,Raices,Bexar,San Antonio,61
+2025-02-11,Animal Supply Co. LLC,Tarrant,Grand Prairie,145
+2025-02-11,Catholic Charities of Dallas (Refuge Resettlement Program),Dallas,Dallas,63
+2025-02-11,Propio Language Services,Bexar,San Antonio,40
+2025-02-10,Catholic Charities Archdiocese Of Galveston-Houston (Bering Drive),Harris,Houston,58
+2025-02-10,Catholic Charities Archdiocese Of Galveston-Houston (Louisiana Street),Harris,Houston,11
+2025-02-10,Catholic Charities Archdiocese Of Galveston-Houston (San Felipe),Harris,Houston,8
+2025-02-10,Catholic Charities Archdiocese Of Galveston-Houston (Smith Street),Harris,Houston,43
+2025-02-05,Hll Mission Technologies(Administrative Office of the US Courts (AOUSC),Bexar,San Antonio,56
+2025-02-05,"LX Pantos America, Inc.",Tarrant,Fort Worth,131
+2025-02-05,Pathlight Property Management (OPVHHJV LLC),Collin,Plano,192
+2025-02-05,Syzygy Plasmonics,Harris,Houston,58
+2025-02-05,Syzygy Plasmonics (Kirby),Harris,Houston,10
+2025-01-30,One TouchPoint,Travis,Austin,43
+2025-01-29,Allied Aviation-Southlake,Tarrant,Southlake,362
+2025-01-29,Manpower Group (Irving),Dallas,Irving,173
+2025-01-29,S & B Engineers and Constructors (Eastman),Gregg,Longview,43
+2025-01-27,"Construction Specialties Platforn Holdings, LLC",Denton,Denton,89
+2025-01-21,"Chalk Mountain Services of Texas of Texas, LLC (Pleasanton)",Atascosa,Pleasanton,1
+2025-01-15,Macy's - Houston (Almeda),Harris,Houston,72
+2025-01-14,"COSMAX NBT USA, INC #1",Dallas,Garland,80
+2025-01-14,RR Donnelley,Nacogdoches,Nacogdoches,88
+2025-01-09,"Scentsy, Inc.",Dallas,Coppell,94
+2025-01-08,C & S Family of Companies,Harris,Houston,21
+2025-01-08,Commanche Peak Nuclear Power Plant,Somervell,Glen Rose,86
+2025-01-08,Crothall Healthcare-Houston,Harris,Houston,69
+2025-01-07,"ICON Technology, Inc.",Travis,Austin,114
