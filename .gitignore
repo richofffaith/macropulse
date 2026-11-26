@@ -6,3 +6,5 @@ data/*.xlsx
 .env
 subscribers.csv
 .streamlit/secrets.toml
+output/instagram/_cache/
+output/instagram/APPROVED

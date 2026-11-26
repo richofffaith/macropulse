@@ -79,6 +79,27 @@ Thresholds used in the score:
 - Vehicle sales (TOTALSA): `< 15.0` million (SAAR)
 - Personal saving rate (PSAVERT): `< 3.5%`
 
+## Instagram Reel dry-run (Phase B)
+
+Build-in-public aesthetic proof: vertical 9:16 Reel (placeholder desk + city motion + MacroPulse UI on “screens”), soft caption, mocked publish log. **Never live-posts by default.** Official Meta Graph API only later — no unofficial bots.
+
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+python run_instagram.py --dry-run
+```
+
+Artifacts land in `output/instagram/`:
+
+- `reel.mp4` — sample Reel (≤60s; default ~12s for a fast proof)
+- `caption.txt` — soft build-in-public caption (no hard site promo)
+- `publish_dry_run.log` — mocked Graph API steps (no network call)
+- `FOOTAGE_NOTE.txt` — how to swap in real dual-monitor / highrise footage
+
+Human approval is required before any non-dry-run path (`--approve` or create `output/instagram/APPROVED`). Live Graph publish is stubbed until you add a Professional IG account, linked Facebook Page, and env vars `IG_PAGE_ACCESS_TOKEN` + `IG_USER_ID` (do not commit secrets).
+
+Phase C schedule (config only; not cron’d yet), America/Los_Angeles: Mon–Fri **11:00**, Sat–Sun **12:15**.
+
 ## Data sources
 
 - [EDD WARN](https://edd.ca.gov/en/jobs_and_training/layoff_services_warn)
