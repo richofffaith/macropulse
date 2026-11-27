@@ -1,12 +1,36 @@
 notice_date,company,city,county,employees
+2026-11-04,Watermark Retirement Communities LLC,Rochester,Monroe,29
+2026-10-30,"Craft Beer Guild Distributing of New York, LLC.",New Paltz,Ulster,91
+2026-10-23,"Conduent State & Local Solutions, Inc.",Endicott,Broome,49
+2026-10-23,"Family Endeavors, Inc.",New York,New York,42
+2026-10-19,Old Navy LLC,New York,New York,44
+2026-10-14,CPS 5 LLC,New York,New York,80
+2026-10-05,Cayuga Home for Children,,New York,34
+2026-10-05,Cayuga Home for Children,Auburn,Cayuga,4
 2026-10-02,"SYPartners, LLC",New York,New York,31
+2026-10-01,"Ambulnz NY2, LLC.",Walton,Delaware,7
+2026-10-01,"Ambulnz NY2, LLC.",Beacon,Dutchess,4
+2026-10-01,"Ambulnz NY2, LLC.",Cohoes,Albany,0
+2026-10-01,"Ambulnz NY2, LLC.",Glens Falls,Warren,3
+2026-10-01,"Ambulnz NY2, LLC.",Nyack,Rockland,1
+2026-10-01,"Ambulnz NY2, LLC.",Saratoga Springs,Saratoga,0
+2026-10-01,"Ambulnz NY2, LLC.",Middletown,Orange,6
+2026-10-01,"Ambulnz NY2, LLC.",Newburgh,Orange,36
+2026-10-01,"Ambulnz NY2, LLC.",Rensselaer,Rensselaer,20
+2026-10-01,"Ambulnz NY2, LLC.",Milton,Ulster,7
+2026-10-01,"Ambulnz NY2, LLC.",Hobart,Delaware,1
+2026-10-01,The Goodyear Tire and Rubber Company,Niagara Falls,Niagara,51
 2026-09-25,"Altera Digital Health, Inc.",North Melville,Suffolk,133
 2026-09-24,Children's Home of Poughkeepsie,Poughkeepsie,Dutchess,39
+2026-09-24,Health Research Inc.,Buffalo,Erie,760
 2026-09-17,"Bowery F&B, LLC",New York,New York,28
 2026-09-10,"Acme Markets, Inc.",Rye Brook,Westchester,38
 2026-09-09,"FreedomRoads, LLC.; CWI, LLC.; Meyer's RV Centers, LLC.",Hamburg,Erie,28
 2026-09-08,"Great Jones Distillers, LLC",New York,New York,26
 2026-09-08,"Mezz57th, LLC",,New York,71
+2026-09-08,"Restaurant Associates, LLC",New York,New York,30
+2026-09-03,"GU Markets, LLC.",Sherrill,Oneida,19
+2026-09-03,"GU Markets, LLC.",Cortland,Cortland,27
 2026-08-28,"InvaGen Pharmaceuticals, Inc.",Central Islip,Suffolk,160
 2026-08-28,"InvaGen Pharmaceuticals, Inc.",Hauppauge,Suffolk,45
 2026-08-28,"KJ Quality Logistics, LLC.",Rochester,Monroe,41
@@ -17,7 +41,7 @@ notice_date,company,city,county,employees
 2026-08-14,Waterview Heights Rehabilitation and Nursing Center,Rochester,Monroe,216
 2026-08-11,"ThreeC Logistics, LLC.",Cohoes,Albany,78
 2026-08-04,Lumina Care Medical Staff,,New York,135
-2026-08-04,"Sky Chefs, LLC",Jamaica,Queens,471
+2026-08-04,"Sky Chefs, LLC",Jamaica,Queens,393
 2026-07-30,"Hudson Valley Fish Farm, Inc.",Hudson,Columbia,47
 2026-07-27,BuzzFeed Media Enterprises Inc,New York,New York,84
 2026-07-22,Stefanini Inc,New York,New York,24
@@ -44,6 +68,9 @@ notice_date,company,city,county,employees
 2026-05-27,Bronx Parent Housing Network,Bronx,Bronx,44
 2026-05-27,"Saint-Gobain Ceramics & Plastics, Inc. (Monofrax, LLC.)",Falconer,Chautauqua,79
 2026-05-26,"SY SEIT, LLC.",Flushing,Queens,13
+2026-05-20,Meta,New York,New York,361
+2026-05-20,Meta,New York,New York,267
+2026-05-20,Meta,New York,New York,304
 2026-05-15,"Van Trans, LLC.",Pelham,Westchester,297
 2026-05-11,"OceanFirst Bank, N.A.",Uniondale,Nassau,174
 2026-05-08,"AVI Foodsystems, Inc.",Alfred,Allegany,45
@@ -57,6 +84,7 @@ notice_date,company,city,county,employees
 2026-05-01,"Republic National Distributing Company New York, LLC.",,Onondaga,46
 2026-04-30,Apple Bank,Scarsdale,Westchester,26
 2026-04-30,Bush Industries Inc. d/b/a eSolutions Group,Jamestown,Chautauqua,237
+2026-04-30,"Coral Graphic Services, Inc.",Hicksville,Nassau,85
 2026-04-30,Saks & Company LLC,New York,New York,136
 2026-04-30,Saks & Company LLC,New York,New York,3
 2026-04-30,Saks & Company LLC,Garden City,Nassau,2
@@ -108,7 +136,7 @@ notice_date,company,city,county,employees
 2026-04-01,Lutheran Social Services of New York,Queens,Queens,38
 2026-04-01,The Children's Village,Dobbs Ferry,Westchester,200
 2026-04-01,"USIC Locating Services, LLC. d/b/a Reconn Utility Services",Bohemia,Suffolk,72
-2026-03-31,"Maximus, Inc.",Pittsford,Monroe,176
+2026-04-01,Urban Resource Institute,Queens,Queens,8
 2026-03-31,"Sparus Holdings, LLC. & Southern Cross, LLC",Tarrytown,Westchester,19
 2026-03-30,Unique Care Ltd,,New York,59
 2026-03-27,Federal Express Corporation (Multiple Regions),Cheektowaga,Erie,36
@@ -140,6 +168,8 @@ notice_date,company,city,county,employees
 2026-03-02,The Coca-Cola Company,,Queens,41
 2026-03-02,The Rockefeller University Hospital,New York,New York,41
 2026-02-27,Amazon (Western),Lancaster,Erie,542
+2026-02-26,S.S. Delivery Systems LLC,,Monroe,4
+2026-02-26,S.S. Delivery Systems LLC,Rochester,Monroe,45
 2026-02-26,"SDH Education West, LLC d/b/a Sodexo - Binghamton University",Johnson City,Broome,3
 2026-02-26,"SDH Education West, LLC d/b/a Sodexo - Binghamton University",Binghamton,Broome,144
 2026-02-26,"SDH Education West, LLC d/b/a Sodexo - Binghamton University",Binghamton,Broome,542

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 import re
 from pathlib import Path
 
@@ -175,7 +176,9 @@ def combine_us_warn(
     ).reset_index(drop=True)
     combined = combined[STANDARD_COLUMNS]
     if save:
-        combined.to_csv(US_WARN_CSV, index=False)
+        temporary = US_WARN_CSV.with_name(US_WARN_CSV.name + ".tmp")
+        combined.to_csv(temporary, index=False)
+        os.replace(temporary, US_WARN_CSV)
         print(f"Wrote combined WARN file: {US_WARN_CSV} ({len(combined)} rows)")
     return combined
 

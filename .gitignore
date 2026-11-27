@@ -4,5 +4,10 @@ __pycache__/
 data/*.xlsx
 .DS_Store
 .env
+.env.local
+*.pem
 subscribers.csv
+data/members.json
+data/accounts.json
+data/war_watch.json
 .streamlit/secrets.toml

@@ -38,9 +38,11 @@ HEADERS = {
 
 
 def make_session() -> requests.Session:
+    from http_retry import mount_retries
+
     session = requests.Session()
     session.headers.update(HEADERS)
-    return session
+    return mount_retries(session)
 
 
 _STREET_SUFFIXES = {

@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-11-13",
+  "autos": [
+    {
+      "id": "toyota",
+      "badge": "TM",
+      "name": "Toyota Motor Credit",
+      "figure": "0.89%",
+      "measure": "Finance receivables 60 or more days late, as a share of earning assets.",
+      "source": "September 30, 2026 \u00b7 Toyota Motor Credit filing"
+    },
+    {
+      "id": "ford",
+      "badge": "F",
+      "name": "Ford Motor Credit",
+      "figure": "0.21%",
+      "measure": "U.S. retail loans over 60 days late. Bankruptcies are left out of this rate.",
+      "source": "September 30, 2026 \u00b7 Ford Motor Credit filing"
+    },
+    {
+      "id": "gm",
+      "badge": "GM",
+      "name": "GM Financial",
+      "figure": "3.7%",
+      "measure": "Retail loans more than 30 days late, prime and subprime together.",
+      "source": "September 30, 2026 \u00b7 GM Financial filing"
+    },
+    {
+      "id": "honda",
+      "badge": "H",
+      "name": "American Honda Finance",
+      "figure": "0.44%",
+      "measure": "Retail loans 60 or more days late.",
+      "source": "September 30, 2026 \u00b7 American Honda Finance filing"
+    },
+    {
+      "id": "hyundai",
+      "badge": "HK",
+      "name": "Hyundai Capital",
+      "figure": "773",
+      "measure": "Average credit score on the 2025-D loan pool sold to investors.",
+      "source": "S&P \u00b7 Hyundai Auto Receivables 2025-D"
+    },
+    {
+      "id": "nissan",
+      "badge": "N",
+      "name": "Nissan Motor Acceptance",
+      "figure": "784",
+      "measure": "Average credit score on the September 2026 loan pool sold to investors.",
+      "source": "Fitch \u00b7 Nissan Auto Receivables 2026-B"
+    },
+    {
+      "id": "bmw",
+      "badge": "BMW",
+      "name": "BMW Group Financial Services",
+      "figure": "39.4%",
+      "measure": "Share of new finance contracts that were leases, worldwide.",
+      "source": "2025 \u00b7 BMW Group report"
+    }
+  ],
+  "cards": [
+    {
+      "id": "chase",
+      "badge": "JPM",
+      "name": "JPMorgan Chase",
+      "figure": "0.81%",
+      "measure": "Chase card trust balances 30 or more days late.",
+      "source": "September 2026 \u00b7 Chase Issuance Trust"
+    },
+    {
+      "id": "amex",
+      "badge": "AXP",
+      "name": "American Express",
+      "figure": "1.2%",
+      "measure": "All U.S. consumer cards 30 or more days late.",
+      "source": "September 30, 2026 \u00b7 American Express filing"
+    },
+    {
+      "id": "citi",
+      "badge": "C",
+      "name": "Citigroup",
+      "figure": "1.35%",
+      "measure": "Citi card trust balances 30 or more days late.",
+      "source": "September 2026 \u00b7 Citibank Credit Card Issuance Trust"
+    },
+    {
+      "id": "capital_one",
+      "badge": "COF",
+      "name": "Capital One",
+      "figure": "1.72%",
+      "measure": "Card trust receivables 30 or more days late.",
+      "source": "September 2026 \u00b7 Capital One Master Trust. Discover has been part of Capital One since May 18, 2025."
+    }
+  ]
+}

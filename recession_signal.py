@@ -17,11 +17,9 @@ or copy `.env.example` to `.env` and paste the key there.
 
 from __future__ import annotations
 
-import os
 from pathlib import Path
 
 import pandas as pd
-from dotenv import load_dotenv
 from fredapi import Fred
 
 from collect_ca_warn import OUTPUT_CSV
@@ -45,9 +43,10 @@ def load_warn_table() -> pd.DataFrame:
 
 
 def load_fred_api_key() -> str:
-    load_dotenv(PROJECT_DIR / ".env")
-    key = os.environ.get("FRED_API_KEY", "").strip()
-    if not key or key == "paste_your_key_here":
+    from runtime_secrets import load_secret
+
+    key = load_secret("FRED_API_KEY")
+    if not key:
         raise SystemExit(
             "FRED_API_KEY is not set.\n"
             f"1. Create a free key: {FRED_KEY_URL}\n"

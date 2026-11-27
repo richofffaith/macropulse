@@ -1,18 +1,19 @@
 """Fetch a batch of FRED leading indicators and score macro stress.
 
-Uses FRED_API_KEY from the environment or a local .env file.
+Uses FRED_API_KEY from Streamlit secrets or the environment.
 """
 
 from __future__ import annotations
 
 import json
 import os
+import re
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable, Dict, List, Optional
 
 import pandas as pd
-from dotenv import load_dotenv
 from fredapi import Fred
 
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -216,30 +217,109 @@ CONSUMER_FRED_IDS = [
     "CSUSHPINSA",
     "REVOLSL",
     "DRCCLACBS",
+    "TERMCBCCALLNS",
+    "DRCCLOBS",
 ]
+AUTO_CREDIT_FRED_IDS = [
+    "MVLOAS",
+]
+# G.20 finance-company auto book. DTCTSL is not a FRED id; we sum loans + leases.
+AUTO_CAPTIVE_LOAN_FRED_ID = "DTCOLNVHFNM"
+AUTO_LEASE_FRED_ID = "DTCORVHFNM"
+AUTO_CAPTIVE_SERIES_ID = "DTCTSL"
+# G.19 48-month new-auto finance rate; FRED id is TERMCBAUTO48NS (Board mnemonic RIFLPBCIANM48).
+AUTO_RATE_FRED_ID = "TERMCBAUTO48NS"
+AUTO_RATE_SERIES_ID = "RIFLPBCNC48"
+# Market and fuel readings. Kept out of the stress score on purpose.
+MARKET_FRED_IDS = ["SP500", "VIXCLS", "GASREGW", "DCOILWTICO"]
 HISTORY_VALUE_COLUMNS = (
     ["PERMIT"]
     + [item.series_id for item in INDICATORS]
     + EXTRA_LABOR_FRED_IDS
     + CONSUMER_FRED_IDS
+    + AUTO_CREDIT_FRED_IDS
+    + [AUTO_CAPTIVE_SERIES_ID, AUTO_RATE_SERIES_ID]
     + ["RENT_YOY"]
+    + MARKET_FRED_IDS
 )
 UNEMPLOYMENT_FLAG_THRESHOLD = 5.0
 AUTO_DELINQUENCY_FLAG_THRESHOLD = 3.5
+AUTO_DQ_CAUTION_THRESHOLD = 1.8
+AUTO_DQ_STRESS_THRESHOLD = 2.5
+AUTO_REPO_PIPELINE_THRESHOLD = 2.2
+AUTO_DQ_QOQ_SURGE_BP = 15.0
+AUTO_DQ_YOY_SURGE_BP = 40.0
 CREDIT_CARD_DELINQUENCY_FLAG_THRESHOLD = 3.0
 
 
-def load_fred_api_key() -> str:
-    load_dotenv(PROJECT_DIR / ".env")
-    key = os.environ.get("FRED_API_KEY", "").strip()
-    if not key or key == "paste_your_key_here":
-        try:
-            import streamlit as st
+def _empty_series(name: str) -> pd.Series:
+    return pd.Series(dtype=float, name=name, index=pd.DatetimeIndex([], name="date"))
 
-            key = str(st.secrets.get("FRED_API_KEY", "")).strip()
-        except Exception:
-            key = ""
-    if not key or key == "paste_your_key_here":
+
+def _coerce_fred_series(raw: object, name: str) -> pd.Series:
+    series = pd.to_numeric(raw, errors="coerce")
+    if not isinstance(series, pd.Series):
+        series = pd.Series(series, dtype=float)
+    series.index = pd.to_datetime(series.index, errors="coerce")
+    series = series[series.index.notna()].dropna()
+    series.name = name
+    return series if not series.empty else _empty_series(name)
+
+
+def _normalize_millions_to_billions(series: pd.Series) -> pd.Series:
+    work = pd.to_numeric(series, errors="coerce").dropna()
+    if work.empty:
+        return series if series is not None else _empty_series("MVLOAS")
+    if float(work.abs().median()) > 10_000:
+        work = work / 1000.0
+        work.name = series.name
+        return work
+    return series
+
+
+def _weekly_last(series: Optional[pd.Series], column: str) -> pd.Series:
+    work = pd.to_numeric(
+        series if series is not None else _empty_series(column),
+        errors="coerce",
+    )
+    if work is None or work.empty:
+        return _empty_series(column)
+    if not isinstance(work.index, pd.DatetimeIndex):
+        work.index = pd.to_datetime(work.index, errors="coerce")
+    work = work[work.index.notna()].dropna()
+    if work.empty:
+        return _empty_series(column)
+    return work.resample("W-FRI").last().rename(column)
+
+
+def _fred_transient(exc: Exception) -> bool:
+    text = str(exc).lower()
+    if "api key" in text or "api_key" in text:
+        return False
+    return any(
+        token in text
+        for token in ("429", "500", "502", "503", "504", "timeout", "timed out", "temporarily", "connection")
+    )
+
+
+def _fred_get(fred: Fred, fred_id: str) -> pd.Series:
+    delay = 1.0
+    for attempt in range(4):
+        try:
+            return fred.get_series(fred_id, observation_start=OBSERVATION_START)
+        except Exception as exc:
+            if attempt == 3 or not _fred_transient(exc):
+                raise
+            time.sleep(delay)
+            delay *= 2
+    raise RuntimeError(f"FRED did not return {fred_id}")
+
+
+def load_fred_api_key() -> str:
+    from runtime_secrets import load_secret
+
+    key = load_secret("FRED_API_KEY")
+    if not key:
         message = (
             "FRED_API_KEY is not set.\n"
             f"1. Create a free key: {FRED_KEY_URL}\n"
@@ -263,21 +343,33 @@ def fetch_macro_series(api_key: Optional[str] = None) -> Dict[str, pd.Series]:
         + [item.source_id() for item in INDICATORS]
         + EXTRA_LABOR_FRED_IDS
         + CONSUMER_FRED_IDS
+        + AUTO_CREDIT_FRED_IDS
+        + [AUTO_CAPTIVE_LOAN_FRED_ID, AUTO_LEASE_FRED_ID, AUTO_RATE_FRED_ID]
+        + MARKET_FRED_IDS
     )
     for fred_id in dict.fromkeys(fred_ids):
         print(f"Fetching {fred_id}...")
-        raw = fred.get_series(fred_id, observation_start=OBSERVATION_START)
-        raw = pd.to_numeric(raw, errors="coerce").dropna()
-        raw.index = pd.to_datetime(raw.index)
-        raw.name = fred_id
-        raw_by_fred_id[fred_id] = raw
-        series_map[fred_id] = raw
-        print(f"  {len(raw):,} observations")
+        try:
+            raw = _fred_get(fred, fred_id)
+        except Exception as exc:
+            detail = re.sub(r"(api_key=)[^&\s\"']+", r"\1[redacted]", str(exc), flags=re.I)
+            secret = os.environ.get("FRED_API_KEY", "").strip()
+            if len(secret) >= 8:
+                detail = detail.replace(secret, "[redacted]")
+            print(f"  failed {fred_id}: {detail}")
+            raw = _empty_series(fred_id)
+        coerced = _coerce_fred_series(raw, fred_id)
+        raw_by_fred_id[fred_id] = coerced
+        series_map[fred_id] = coerced
+        print(f"  {len(coerced):,} observations")
 
     for indicator in INDICATORS:
-        source = raw_by_fred_id[indicator.source_id()]
+        source = raw_by_fred_id.get(indicator.source_id(), _empty_series(indicator.source_id()))
+        if source is None or source.empty:
+            series_map[indicator.series_id] = _empty_series(indicator.series_id)
+            continue
         prepared = indicator.prepare(source) if indicator.prepare else source
-        prepared = prepared.dropna()
+        prepared = pd.to_numeric(prepared, errors="coerce").dropna()
         prepared.name = indicator.series_id
         series_map[indicator.series_id] = prepared
         if indicator.series_id != indicator.source_id():
@@ -285,27 +377,94 @@ def fetch_macro_series(api_key: Optional[str] = None) -> Dict[str, pd.Series]:
                 f"  derived {indicator.series_id}: {len(prepared):,} observations"
             )
     for claims_id in STATE_CLAIMS_IDS:
-        smoothed = _icsa_prepare(raw_by_fred_id[claims_id]).dropna()
+        source = raw_by_fred_id.get(claims_id, _empty_series(claims_id))
+        if source is None or source.empty:
+            series_map[claims_id] = _empty_series(claims_id)
+            continue
+        smoothed = _icsa_prepare(source).dropna()
         smoothed.name = claims_id
         series_map[claims_id] = smoothed
         print(f"  derived {claims_id} 4-week MA: {len(smoothed):,} observations")
-    rent_yoy = _permit_yoy(raw_by_fred_id["CUSR0000SEHA"]).dropna()
-    rent_yoy.name = "RENT_YOY"
-    series_map["RENT_YOY"] = rent_yoy
-    print(f"  derived RENT_YOY: {len(rent_yoy):,} observations")
+    rent_source = raw_by_fred_id.get("CUSR0000SEHA", _empty_series("CUSR0000SEHA"))
+    if rent_source is None or rent_source.empty:
+        series_map["RENT_YOY"] = _empty_series("RENT_YOY")
+    else:
+        rent_yoy = _permit_yoy(rent_source).dropna()
+        rent_yoy.name = "RENT_YOY"
+        series_map["RENT_YOY"] = rent_yoy
+        print(f"  derived RENT_YOY: {len(rent_yoy):,} observations")
+    rate_source = raw_by_fred_id.get(AUTO_RATE_FRED_ID, _empty_series(AUTO_RATE_FRED_ID))
+    series_map[AUTO_RATE_SERIES_ID] = (
+        rate_source.rename(AUTO_RATE_SERIES_ID)
+        if rate_source is not None and not rate_source.empty
+        else _empty_series(AUTO_RATE_SERIES_ID)
+    )
+    if rate_source is not None and not rate_source.empty:
+        print(
+            f"  aliased {AUTO_RATE_FRED_ID} -> {AUTO_RATE_SERIES_ID}: "
+            f"{len(series_map[AUTO_RATE_SERIES_ID]):,} observations"
+        )
+    if "MVLOAS" in series_map:
+        series_map["MVLOAS"] = _normalize_millions_to_billions(series_map["MVLOAS"])
+    if "REVOLSL" in series_map:
+        series_map["REVOLSL"] = _normalize_millions_to_billions(series_map["REVOLSL"])
+    loan_book = _normalize_millions_to_billions(
+        series_map.get(AUTO_CAPTIVE_LOAN_FRED_ID, _empty_series(AUTO_CAPTIVE_LOAN_FRED_ID))
+    )
+    lease_book = _normalize_millions_to_billions(
+        series_map.get(AUTO_LEASE_FRED_ID, _empty_series(AUTO_LEASE_FRED_ID))
+    )
+    combined = pd.to_numeric(loan_book, errors="coerce").add(
+        pd.to_numeric(lease_book, errors="coerce"), fill_value=0
+    ).dropna()
+    combined.name = AUTO_CAPTIVE_SERIES_ID
+    series_map[AUTO_CAPTIVE_SERIES_ID] = (
+        combined if not combined.empty else _empty_series(AUTO_CAPTIVE_SERIES_ID)
+    )
+    print(
+        f"  derived {AUTO_CAPTIVE_SERIES_ID} (loans+leases): "
+        f"{len(series_map[AUTO_CAPTIVE_SERIES_ID]):,} observations"
+    )
     return series_map
+
+
+def _attach_auto_velocity(history: pd.DataFrame) -> pd.DataFrame:
+    """QoQ / YoY bp surge in commercial-bank auto delinquencies (DRALACBS)."""
+    if "DRALACBS" not in history.columns:
+        history["DRALACBS_QOQ_BP"] = pd.NA
+        history["DRALACBS_YOY_BP"] = pd.NA
+        return history
+    dq = pd.to_numeric(history["DRALACBS"], errors="coerce")
+    if not isinstance(dq.index, pd.DatetimeIndex):
+        dq.index = pd.to_datetime(dq.index, errors="coerce")
+        dq = dq[dq.index.notna()]
+    if dq.empty:
+        history["DRALACBS_QOQ_BP"] = pd.NA
+        history["DRALACBS_YOY_BP"] = pd.NA
+        return history
+    quarterly = dq.resample("QS").last()
+    qoq = (quarterly.diff(1) * 100.0).rename("DRALACBS_QOQ_BP")
+    yoy = (quarterly.diff(4) * 100.0).rename("DRALACBS_YOY_BP")
+    history["DRALACBS_QOQ_BP"] = qoq.reindex(history.index, method="ffill")
+    history["DRALACBS_YOY_BP"] = yoy.reindex(history.index, method="ffill")
+    return history
 
 
 def build_macro_history(series_map: Dict[str, pd.Series]) -> pd.DataFrame:
     """Forward-fill each series onto a weekly grid and score every week."""
     frames = []
     for column in HISTORY_VALUE_COLUMNS:
-        weekly = series_map[column].resample("W-FRI").last().rename(column)
-        frames.append(weekly)
-    history = pd.concat(frames, axis=1).sort_index()
+        source = series_map.get(column, pd.Series(dtype=float))
+        frames.append(_weekly_last(source, column))
+    history = pd.concat(frames, axis=1)
+    history.index = pd.to_datetime(history.index, errors="coerce")
+    history = history.loc[history.index.notna()].sort_index()
     history = history.ffill()
     needed = [item.series_id for item in INDICATORS]
-    history = history.dropna(subset=needed, how="any")
+    present = [col for col in needed if col in history.columns]
+    if present:
+        history = history.dropna(subset=present, how="any")
+    history = _attach_auto_velocity(history)
 
     score_cols = []
     for indicator in INDICATORS:
@@ -405,7 +564,30 @@ def latest_snapshot(history: pd.DataFrame) -> dict:
                 > CREDIT_CARD_DELINQUENCY_FLAG_THRESHOLD
             ),
             "revolving_credit": _optional_float(row, "REVOLSL"),
+            "cc_apr": _optional_float(row, "TERMCBCCALLNS"),
+            "cc_subprime_dq": _optional_float(row, "DRCCLOBS"),
         },
+        "automotive": _automotive_payload(row),
+    }
+
+
+def _automotive_payload(row: pd.Series) -> dict:
+    auto_dq = _optional_float(row, "DRALACBS")
+    qoq_bp = _optional_float(row, "DRALACBS_QOQ_BP")
+    yoy_bp = _optional_float(row, "DRALACBS_YOY_BP")
+    repo_flagged = bool(
+        (auto_dq is not None and auto_dq >= AUTO_REPO_PIPELINE_THRESHOLD)
+        or (qoq_bp is not None and qoq_bp >= AUTO_DQ_QOQ_SURGE_BP)
+        or (yoy_bp is not None and yoy_bp >= AUTO_DQ_YOY_SURGE_BP)
+    )
+    return {
+        "auto_debt": _optional_float(row, "MVLOAS"),
+        "captive_leases": _optional_float(row, "DTCTSL"),
+        "auto_delinquency": auto_dq,
+        "car_loan_rate": _optional_float(row, "RIFLPBCNC48"),
+        "dq_qoq_bp": qoq_bp,
+        "dq_yoy_bp": yoy_bp,
+        "repo_velocity_flagged": repo_flagged,
     }
 
 
@@ -415,17 +597,54 @@ def _optional_float(row: pd.Series, column: str) -> Optional[float]:
     return float(row[column])
 
 
+def _replace_file(path: Path, write) -> None:
+    temporary = path.with_name(path.name + ".tmp")
+    write(temporary)
+    os.replace(temporary, path)
+
+
 def save_macro_outputs(history: pd.DataFrame, snapshot: dict) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    history.to_csv(HISTORY_CSV, index=False)
-    SNAPSHOT_JSON.write_text(json.dumps(snapshot, indent=2))
+    _replace_file(HISTORY_CSV, lambda path: history.to_csv(path, index=False))
+    _replace_file(SNAPSHOT_JSON, lambda path: path.write_text(json.dumps(snapshot, indent=2)))
     print(f"Wrote {HISTORY_CSV}")
     print(f"Wrote {SNAPSHOT_JSON}")
 
 
+def _preserve_saved_markets(history: pd.DataFrame) -> pd.DataFrame:
+    """Keep the last good market series if a refresh comes back empty."""
+    if not HISTORY_CSV.exists():
+        return history
+    try:
+        previous = pd.read_csv(HISTORY_CSV, parse_dates=["date"])
+    except Exception:
+        return history
+    previous["date"] = pd.to_datetime(previous["date"], errors="coerce")
+    previous = previous.dropna(subset=["date"]).drop_duplicates("date").sort_values("date")
+    history = history.copy()
+    history["date"] = pd.to_datetime(history["date"], errors="coerce")
+    keep_columns = list(MARKET_FRED_IDS) + CONSUMER_FRED_IDS + [
+        "RENT_YOY",
+        "MVLOAS",
+        "DTCTSL",
+        "RIFLPBCNC48",
+        "DRALACBS_QOQ_BP",
+        "DRALACBS_YOY_BP",
+    ]
+    for column in keep_columns:
+        if column not in history.columns or column not in previous.columns:
+            continue
+        current = pd.to_numeric(history[column], errors="coerce")
+        if current.notna().any():
+            continue
+        prior = pd.to_numeric(previous.set_index("date")[column], errors="coerce")
+        history[column] = prior.reindex(history["date"], method="ffill").to_numpy()
+    return history
+
+
 def collect_macro_signals() -> tuple[pd.DataFrame, dict]:
     series_map = fetch_macro_series()
-    history = build_macro_history(series_map)
+    history = _preserve_saved_markets(build_macro_history(series_map))
     snapshot = latest_snapshot(history)
     save_macro_outputs(history, snapshot)
     return history, snapshot
@@ -479,6 +698,33 @@ def print_macro_summary(snapshot: dict) -> None:
         if revolving is not None:
             billions = revolving / 1000.0 if revolving > 10_000 else revolving
             print(f"  Revolving credit            {billions:>10.1f} $bn")
+        cc_apr = consumer.get("cc_apr")
+        if cc_apr is not None:
+            print(f"  Credit card APR             {cc_apr:>10.2f} %")
+        subprime = consumer.get("cc_subprime_dq")
+        if subprime is not None:
+            print(f"  Smaller-bank card DQ        {subprime:>10.2f} %")
+    auto = snapshot.get("automotive") or {}
+    if auto:
+        repo = "ON " if auto.get("repo_velocity_flagged") else "off"
+        debt = auto.get("auto_debt")
+        car_rate = auto.get("car_loan_rate")
+        qoq = auto.get("dq_qoq_bp")
+        yoy = auto.get("dq_yoy_bp")
+        print("  --- Automotive credit ---")
+        if debt is not None:
+            billions = debt / 1000.0 if debt > 10_000 else debt
+            print(f"  Motor vehicle loans         {billions:>10.1f} $bn")
+        leases = auto.get("captive_leases")
+        if leases is not None:
+            billions = leases / 1000.0 if leases > 10_000 else leases
+            print(f"  Finance-co auto leases      {billions:>10.1f} $bn")
+        if car_rate is not None:
+            print(f"  48-mo new-car loan rate     {car_rate:>10.2f} %")
+        if qoq is not None:
+            print(f"  Auto DQ QoQ                 {qoq:>10.0f} bp")
+        if yoy is not None:
+            print(f"  Auto DQ YoY                 {yoy:>10.0f} bp          repo velocity            {repo}")
     print("========================================\n")
 
 
