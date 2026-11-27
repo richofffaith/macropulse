@@ -1,0 +1,35 @@
+{
+  "mode": "higgsfield-stub",
+  "reason": "missing_credentials",
+  "primary_engine": "bytedance/seedance-2.5/reference-to-video",
+  "secondary_face": "kling-video/v3.0/pro/image-to-video",
+  "soul_id_endpoint": "/v1/custom-references",
+  "would_call": [
+    "POST https://api.higgsfield.ai/files/generate-upload-url (identity stills)",
+    "POST https://api.higgsfield.ai/bytedance/seedance-2.5/reference-to-video (person + desk refs, 9:16)",
+    "GET status_url until completed",
+    "optional: POST /v1/custom-references (Soul ID train once)",
+    "optional series: POST https://api.higgsfield.ai/kling-video/v3.0/pro/image-to-video + Elements"
+  ],
+  "env_required": [
+    "HF_API_KEY_ID + HF_API_KEY_SECRET (or HIGGSFIELD_API_KEY + HIGGSFIELD_API_SECRET)"
+  ],
+  "env_optional": [
+    "HIGGSFIELD_SOUL_ID",
+    "HIGGSFIELD_KLING_ELEMENT_ID"
+  ],
+  "scene_prompt": "Founder at dual-monitor desk\u2026 (see DEFAULT_SCENE_PROMPT)",
+  "identity_paths": [
+    "<project-store>/media/instagram/identity/*.jpg"
+  ],
+  "image_urls": [],
+  "soul_id_env": null,
+  "kling_element_env": null,
+  "docs": {
+    "auth": "https://docs.higgsfield.ai/docs/authentication",
+    "r2v": "https://docs.higgsfield.ai/docs/models/seedance-2-5/reference-to-video",
+    "uploads": "https://docs.higgsfield.ai/docs/concepts/file-uploads",
+    "soul_id": "https://docs.higgsfield.ai/docs/models/soul-id/create-character"
+  },
+  "fallback_render": "keyframes|placeholder when offline"
+}

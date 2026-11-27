@@ -1,1 +1,1 @@
-Visuals are generated placeholders (desk framing + city motion + MacroPulse UI mock). Replace with real dual-monitor highrise footage when available; keep MacroPulse on-screen.
+Offline/fallback visuals (placeholder compositor or local keyframes). Locked provider: Higgsfield Seedance 2.5 R2V with identity refs + desk env. Set HF_API_KEY_ID + HF_API_KEY_SECRET (or HIGGSFIELD_API_KEY + HIGGSFIELD_API_SECRET) for live generation. Identity photos stay outside git (Project store).

@@ -1,0 +1,19 @@
+{
+  "scene_prompt": "Founder at dual-monitor desk in a highrise at night; city timelapse window; casual tech desk outfit (not gym). Left screen: Cursor chatting; right screen: MacroPulse slowly being built. Soft brand, audience-first. Subject ~6'1\" lean athletic, dark curly hair volume on top, light goatee. 9:16 Reel.",
+  "identity_paths": [
+    "<project-store>/media/instagram/identity/<file>.jpg"
+  ],
+  "identity_note": "Paths only in git logs \u2014 identity binaries must not be committed.",
+  "image_urls": [],
+  "keyframes": [],
+  "provider": {
+    "selected": "placeholder",
+    "locked": true,
+    "reason": "Phase B Pillow placeholder desk/city compositor + MoviePy.",
+    "env_keys_needed": [],
+    "credentials_present": true
+  },
+  "fable_note": "Fable models in Cursor are coding agents (e.g. Fable 5.2). They do not expose a video generation API. Photoreal Reels use the locked Higgsfield stack: Seedance 2.5 R2V (primary), Kling 3.0 Pro Elements (face series), Soul ID on identity photos. Fallback without credentials: local keyframes or Phase B placeholders.",
+  "footage_note": "Offline/fallback visuals (placeholder compositor or local keyframes). Locked provider: Higgsfield Seedance 2.5 R2V with identity refs + desk env. Set HF_API_KEY_ID + HF_API_KEY_SECRET (or HIGGSFIELD_API_KEY + HIGGSFIELD_API_SECRET) for live generation. Identity photos stay outside git (Project store).",
+  "higgsfield": null
+}
