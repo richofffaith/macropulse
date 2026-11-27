@@ -79,6 +79,57 @@ Thresholds used in the score:
 - Vehicle sales (TOTALSA): `< 15.0` million (SAAR)
 - Personal saving rate (PSAVERT): `< 3.5%`
 
+## Instagram Reel dry-run (Phase B+)
+
+Build-in-public aesthetic: founder at dual-monitor desk, highrise city window, Cursor then MacroPulse on screens. Soft caption, mocked Instagram publish. **Never live-posts by default.** Official Meta Graph API only later — no unofficial bots.
+
+### Video provider (locked)
+
+| Role | Choice |
+|------|--------|
+| Platform | **Higgsfield API** |
+| Primary | **Seedance 2.5** reference-to-video |
+| Recurring face | **Kling 3.0 Pro Elements** |
+| Identity | **Soul ID** on founder photos (outside git) |
+
+**Fable** Cursor agent models (e.g. Fable 5.2) are coding agents — they are **not** a video API. Photoreal motion goes through Higgsfield.
+
+Credentials (do not commit; never paste into chat):
+
+- Official: `HF_API_KEY_ID` + `HF_API_KEY_SECRET`
+- Aliases: `HIGGSFIELD_API_KEY` + `HIGGSFIELD_API_SECRET` (or `HIGGSFIELD_API_KEY=id:secret`)
+- Optional: `HIGGSFIELD_SOUL_ID`, `HIGGSFIELD_KLING_ELEMENT_ID`
+
+Without credentials the CLI **stubs** Higgsfield (writes `higgsfield_stub.json`) and can fall back to local `--keyframe` assembly or Phase B placeholders.
+
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# Default: Higgsfield (stub if no key) + optional keyframe fallback
+python run_instagram.py --dry-run \
+  --identity /path/to/project-store/media/instagram/identity/face.jpg \
+  --keyframe /path/to/approved-9x16-still.png
+
+# Offline only
+python run_instagram.py --dry-run --provider placeholder
+```
+
+Artifacts land in `output/instagram/`:
+
+- `reel.mp4` — Reel (Seedance when keyed; else keyframes/placeholder)
+- `caption.txt` — soft build-in-public caption (no hard site promo)
+- `publish_dry_run.log` — mocked Graph API steps (no Meta network call)
+- `scene_brief.txt` — prompt + identity path refs + provider status
+- `higgsfield_stub.json` / `higgsfield_result.json` — provider audit
+- `FOOTAGE_NOTE.txt` — footage / provider notes
+
+**Identity photos must not be committed to this public repo.** Keep them in the Project store and pass absolute paths via `--identity`.
+
+Human approval is required before any non-dry-run Instagram path (`--approve` or create `output/instagram/APPROVED`). Live Graph publish is stubbed until `IG_PAGE_ACCESS_TOKEN` + `IG_USER_ID` exist.
+
+Phase C schedule (config only; not cron’d yet), America/Los_Angeles: Mon–Fri **11:00**, Sat–Sun **12:15**.
+
 ## Data sources
 
 - [EDD WARN](https://edd.ca.gov/en/jobs_and_training/layoff_services_warn)

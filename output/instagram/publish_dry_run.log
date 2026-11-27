@@ -1,0 +1,16 @@
+{
+  "mode": "dry-run",
+  "timestamp_utc": "2026-11-27T00:49:10.791810+00:00",
+  "video": "/agent/repos/macropulse/output/instagram/reel.mp4",
+  "caption_chars": 301,
+  "caption_preview": "Late night at the desk. City lights stretching while another piece of MacroPulse comes together.  Building in public \u2014 one monitor for the product, one for the ",
+  "graph_api": {
+    "would_call": [
+      "POST /{ig-user-id}/media (video_url / media_type=REELS)",
+      "GET /{creation-id}?fields=status_code (poll)",
+      "POST /{ig-user-id}/media_publish"
+    ],
+    "status": "skipped \u2014 dry-run (no Meta credentials used)"
+  },
+  "note": "Live publish blocked until Professional IG + Page token exist and approval is granted."
+}
